@@ -1,39 +1,39 @@
 <?php
 date_default_timezone_set('America/Chicago');
 require_once 'login.php';
-$db_server = mysql_connect($db_hostname, $db_username, $db_password);
+$db_server = mysqli_connect($db_hostname, $db_username, $db_password);
 include 'cheatsheat.php';
 
-if (!$db_server) die("Unable to connect at line 7" . mysql_error());
+if (!$db_server) die("Unable to connect at line 7" . $mysqli->error;);
 
-mysql_select_db($db_database)
-  or die('unable to select database: ' . mysql_error());
-mysql_select_db($db_database, $db_server) or die("unable to connect at line 7 " . mysql_error());
+mysqli_select_db($db_database)
+  or die('unable to select database: ' . $mysqli->error;);
+mysqli_select_db($db_database, $db_server) or die("unable to connect at line 7 " . $mysqli->error;);
 
 $newdayoff = $_POST['dayoff'];
 
 //when a day is added it's posted to offdays
-$adddayoff = "INSERT INTO offdays(numdate) VALUES ('$newdayoff') EXCEPT SELECT * FROM offdays";
-$dayoffresult = mysql_query($adddayoff);
-if(!$dayoffresult) die ('database access failed: . ' . mysql_error());
+$adddayoff = "INSERT INTO offdays(numdate) VALUES ('$newdayoff') EXCEPT SELECT numdate FROM offdays";
+$dayoffresult = mysqli_query($adddayoff);
+if(!$dayoffresult) die ('database access failed: . ' . $mysqli->error;);
 
 //When days are added to offdays they are deleted from days
 $deletedaysofffromdays = "DELETE FROM days WHERE numdate = '$newdayoff'";
-$deletedaysofffromdaysresult = mysql_query($deletedaysofffromdays);
-if(!$deletedaysofffromdaysresult) die ('database access failed: . ' . mysql_error());
+$deletedaysofffromdaysresult = mysqli_query($deletedaysofffromdays);
+if(!$deletedaysofffromdaysresult) die ('database access failed: . ' . $mysqli->error;);
 
 $offdays = array('11.25.15','11.26.15','11.27.15');
 $offdayssql = array();
 
-while($row = mysql_fetch_array($offdaytable)){
+while($row = mysqli_fetch_array($offdaytable)){
     $offdayssql[] = $row['numdate'];
 
 }
 
 //updatedays() writes an $x's worth of values to days
 function updatedays($x){
-  $offdaytable = mysql_query('SELECT * FROM offdays');
-  if(!$offdaytable) die ('database access failed: . ' . mysql_error());
+  $offdaytable = mysqli_query('SELECT * FROM offdays');
+  if(!$offdaytable) die ('database access failed: . ' . $mysqli->error;);
   while ($x === 365):
   //if it's a weekend, skip
     if (date('D' , strtotime("+ $x day")) === "Sun" or date('D' , strtotime("+ $x day")) === "Sat"){
@@ -82,9 +82,9 @@ function updatedays($x){
           global $letter;
           $cyc = 1;
         }
-      $dayquery = "INSERT INTO days VALUES ('$formattedextrapolateddate','$letter') EXCEPT SELECT * FROM days";
-      $result = mysql_query($dayquery);
-      if(!$result) die ('database access failed: . ' . mysql_error());
+      $dayquery = "INSERT INTO days VALUES ('$formattedextrapolateddate','$letter') EXCEPT SELECT numdate, cycleday FROM days";
+      $result = mysqli_query($dayquery);
+      if(!$result) die ('database access failed: . ' . $mysqli->error;);
         echo $b;
         $x = $x + 1;
       }
