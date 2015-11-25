@@ -1,29 +1,26 @@
 <?php
 date_default_timezone_set('America/Chicago');
-require_once 'login.php';
-$db_server = mysql_connect($db_hostname, $db_username, $db_password);
 include 'cheatsheat.php';
-
-if (!$db_server) die("Unable to connect at line 7" . mysql_error());
+require_once 'login.php';
+$db_server = new mysqli("localhost", "root", "root", "schedule");
+if ($db_server->connect_errno) {
+    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+}
 $letter = "D";
-mysql_select_db($db_database)
-  or die('unable to select database: ' . mysql_error());
-mysql_select_db($db_database, $db_server) or die("unable to connect at line 7 " . mysql_error());
 $x = 1;
 $cyc = 1;
-
+$today = '12.12.15';
+//date('m.d.y');
 
 //theoretically add days to offdays array
-echo "Add days off: <form action='post.php' method='post'><input type='text' name='dayoff' />  <input type='submit' /> </form> ";
-
-$today = date('m.d.y');
-//starting letter
-
+echo "Add days off: <form action='post.php' method='post'><input type='text' name='dayoff' /><input type='submit' /> </form> ";
 
 $todayquery = "SELECT cycleday FROM days WHERE numdate = '$today'";
+$todayresult = mysqli_real_query($db_server, $todayquery);
 
-$todayresult = mysql_query($todayquery);
-if(!$todayresult) die ('database access failed: ' . mysql_error());
-echo mysql_result($todayresult, 0);
-
+if ($todayresult->connect_errno) {
+    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+}
+print $todayresult;
+var_dump($todayresult);
 ?>
