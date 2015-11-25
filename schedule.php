@@ -20,7 +20,22 @@ $todayresult = mysqli_real_query($db_server, $todayquery);
 if ($todayresult->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
-$varresult = $result->fetch_assoc($todayresult);
+$todayresult
+$varresult = $result->fetch_assoc();
 echo $b;
 return $varresult;
+
+if ($result = $mysqli->query($todayquery)) {
+
+    /* fetch object array */
+    while ($row = $result->fetch_row()) {
+        printf ("%s (%s)\n", $row[0], $row[1]);
+    }
+
+    /* free result set */
+    $result->close();
+}
+
+
+
 ?>
