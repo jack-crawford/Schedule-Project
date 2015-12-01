@@ -1,0 +1,591 @@
+2015-11-30 17:43:54: starting
+2015-11-30 17:48:08: starting
+2015-11-30 17:49:10: starting, x=hello world
+2015-11-30 17:53:32: started
+2015-11-30 17:53:33: started
+2015-11-30 17:53:33: started
+2015-11-30 17:55:38: started
+2015-11-30 17:57:49: started
+2015-11-30 17:57:49: connected to server
+2015-11-30 17:58:41: started
+2015-11-30 17:58:41: connected to server
+2015-11-30 17:58:41: off day query succeeded
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:41: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 17:58:42: while is started
+2015-11-30 18:00:43: started
+2015-11-30 18:00:43: connected to server
+2015-11-30 18:00:43: off day query succeeded
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:43: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:00:44: weekend removed
+2015-11-30 18:02:37: started
+2015-11-30 18:02:37: connected to server
+2015-11-30 18:02:37: off day query succeeded
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed
+2015-11-30 18:02:37: weekend removed

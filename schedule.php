@@ -15,26 +15,16 @@ $today = date('m.d.y');
 echo "Add days off: <form action='post.php' method='post'><input type='text' name='dayoff' /><input type='submit' /> </form> ";
 
 $todayquery = "SELECT * FROM days WHERE numdate = '$today'";
-$todayresult = mysqli_real_query($db_server, $todayquery);
-
+$todayresult = mysqli_query($db_server, $todayquery);
 if ($todayresult->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
-$todayresult
-$varresult = $result->fetch_assoc();
-echo $b;
-return $varresult;
+$row = mysqli_fetch_array($todayresult, MYSQLI_ASSOC);
+mysqli_free_result($todayresult);
+printf($row['cycleday']);
+mysqli_close($db_server);
 
-if ($result = $mysqli->query($todayquery)) {
 
-    /* fetch object array */
-    while ($row = $result->fetch_row()) {
-        printf ("%s (%s)\n", $row[0], $row[1]);
-    }
-
-    /* free result set */
-    $result->close();
-}
 
 
 
