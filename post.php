@@ -30,5 +30,7 @@ while($row = mysqli_fetch_array($offdaytable)){
 
 }
 
-
+function offday($date){
+  in_array(date($date, $offdayssql);
+}
 ?>

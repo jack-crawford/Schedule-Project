@@ -16,6 +16,7 @@ $offdaytable = mysqli_query('SELECT * FROM offdays');
 if ($offdaytable->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
+
 mylog("off day query succeeded");
 
 $x = 1;
@@ -27,7 +28,7 @@ while ($x <= 365):
   if (date('D' , strtotime("+ $x day")) === "Sun" or date('D' , strtotime("+ $x day")) === "Sat"){
     $x = $x + 1;
     mylog('weekend removed');
-  } elseif (in_array(date('m.d.y', strtotime("+ $x day")), $offdayssql)) {
+  } elseif (offday(date('m.d.y', strtotime("+ $x day"))))) {
     $x = $x + 1;
     mylog("offday skipped");
   } else {
@@ -94,6 +95,7 @@ while ($x <= 365):
   echo $b;
   $x = $x + 1;
   echo "test";
+  echo $x;
 }
 endwhile;
 
