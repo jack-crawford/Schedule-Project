@@ -11,90 +11,136 @@ mylog("connected to server");
 
 
 
-$newdayoff = $_POST['dayoff'];
 $offdaytable = mysqli_query('SELECT * FROM offdays');
 if ($offdaytable->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+}
+$offdayssql = array();
+
+while($row = mysqli_fetch_array($offdaytable)){
+    $offdayssql[] = $row['numdate'];
+
 }
 
 mylog("off day query succeeded");
 
 $x = 1;
-$letter = 'F';
-$cyc = 6;
+$letter = 'A';
+$cyc = 1;
 while ($x <= 365):
-
+    $date = date('Y-m-d', strtotime("+ $x day"));
   //if it's a weekend, skip
   if (date('D' , strtotime("+ $x day")) === "Sun" or date('D' , strtotime("+ $x day")) === "Sat"){
     $x = $x + 1;
     mylog('weekend removed');
-  } elseif (offday(date('m.d.y', strtotime("+ $x day"))))) {
+  } elseif (in_array($date, $offdayssql)) {
     $x = $x + 1;
     mylog("offday skipped");
   } else {
   if ($cyc == 1) {
+
     $letter = "A";
     global $letter;
     $cyc = $cyc + 1;
-    $dayquery = "UPDATE days(cycleday) VALUES ('$letter') WHERE numdate = $formattedextrapolateddate ";
+    $dayquery = "UPDATE days('cycleday', 'daate') VALUES ('$letter', '$date')";
+    //WHERE daate = '$date'";
+    mylog($dayquery);
     $result = mysqli_query($dayquery);
       if ($result->connect_errno) {
         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
       }
+    mylog('A');
+    echo "  ";
+    echo $letter;
+    echo "  ";
+    echo $date;
   }
   elseif ($cyc == 2) {
     $letter = "B";
     global $letter;
     $cyc = $cyc + 1;
-    $dayquery = "UPDATE days(cycleday) VALUES ('$letter')";
-    /*$result = mysqli_query($dayquery);
-    if ($result->connect_errno) {
+    $dayquery = "INSERT INTO days('cycleday', 'daate') VALUES ('$letter','$date')";
+    //WHERE daate = '$date'";
+    mylog($dayquery);
+    $result = mysqli_query($dayquery);
+      if ($result->connect_errno) {
         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    }*/
+      }    mylog('b');
+    echo "  ";
+    echo $letter;
+    echo "  ";
+    echo $date;
   }
   elseif ($cyc == 3) {
     $letter = "C";
     global $letter;
     $cyc = $cyc + 1;
-    $dayquery = "UPDATE days(cycleday) VALUES ('$letter')";
-    //$result = mysqli_query($dayquery);
-    if ($result->connect_errno) {
+    $dayquery = "INSERT INTO days('cycleday', 'daate') VALUES ('$letter','$date')";
+    //WHERE daate = '$date'";
+    mylog($dayquery);
+    $result = mysqli_query($dayquery);
+      if ($result->connect_errno) {
         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    }
+      }
+    mylog('c');
+    echo "  ";
+    echo $letter;
+    echo "  ";
+    echo $date;
   }
   elseif ($cyc == 4) {
     $letter = "D";
     global $letter;
     $cyc = $cyc + 1;
-    $dayquery = "UPDATE days(cycleday) VALUES ('$letter')";
-    //$result = mysqli_query($dayquery);
-    if ($result->connect_errno) {
+    $dayquery = "INSERT INTO days('cycleday', 'daate') VALUES ('$letter','$date')";
+    //WHERE daate = '$date'";
+    mylog($dayquery);
+    $result = mysqli_query($dayquery);
+      if ($result->connect_errno) {
         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    }
+      }
+    mylog('d');
+    echo "  ";
+    echo $letter;
+    echo "  ";
+    echo $date;
   }
   elseif ($cyc == 5) {
     $letter = "E";
     global $letter;
     $cyc = $cyc + 1;
-    $dayquery = "UPDATE days(cycleday) VALUES ('$letter')";
-    //$result = mysqli_query($dayquery);
-    if ($result->connect_errno) {
+    $dayquery = "INSERT INTO days('cycleday', 'daate') VALUES ('$letter','$date')";
+    //WHERE daate = '$date'";
+    mylog($dayquery);
+    $result = mysqli_query($dayquery);
+      if ($result->connect_errno) {
         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    }
+      }
+    mylog('e');
+    echo "  ";
+    echo $letter;
+    echo "  ";
+    echo $date;
   }
   elseif ($cyc == 6) {
     $letter = "F";
     global $letter;
     $cyc = 1;
-    $dayquery = "UPDATE days(cycleday) VALUES ('$letter')";
-   //$result = mysqli_query($dayquery);
-    if ($result->connect_errno) {
+    $dayquery = "INSERT INTO days('cycleday', 'daate') VALUES ('$letter','$date')";
+    //WHERE daate = '$date'";
+    mylog($dayquery);
+    $result = mysqli_query($dayquery);
+      if ($result->connect_errno) {
         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    }
+      } 
+    mylog('f');
+    echo "  ";
+    echo $letter;
+    echo "  ";
+    echo $date;
   }
   echo $b;
   $x = $x + 1;
-  echo "test";
   echo $x;
 }
 endwhile;
