@@ -25,7 +25,7 @@ while($row = mysqli_fetch_array($offdaytable)){
 mylog("off day query succeeded");
 
 $x = 0;
-$cyc = 0;
+$cyc = 2;
 $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
 while ($x <= 364):
     $date = date('Y-m-d', strtotime("+ $x day"));
@@ -42,7 +42,7 @@ while ($x <= 364):
     $cyc = ($cyc==5) ? 0 : $cyc + 1;
     mylog("letter is $letter, cyc is $cyc");
   
-    $dayquery = "INSERT INTO days(cycleday, daate) VALUES ('$letter','$date');";
+    $dayquery = "UPDATE days SET cycleday = '$letter' WHERE daate = '$date';";
     mylog($dayquery);
     $result = mysqli_query($db_server, $dayquery);
       if ($result->connect_errno) {
@@ -55,10 +55,13 @@ while ($x <= 364):
     echo $date;
     echo $b;
     $x = $x + 1;
-    echo $x;
+
   }
 endwhile;
     
+
+
+
 
 
 
