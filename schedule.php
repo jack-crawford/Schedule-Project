@@ -24,10 +24,7 @@ $row = mysqli_fetch_array($todayresult, MYSQLI_ASSOC);
 mylog("fetched today's date");
 mysqli_free_result($todayresult);
 printf($row['cycleday']);
+
 mysqli_close($db_server);
-
-
-
-
 
 ?>
