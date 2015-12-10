@@ -4,6 +4,7 @@ require_once 'login.php';
 include 'cheatsheat.php';
 
 $today = date('Y-m-d');
+<<<<<<< Updated upstream
 
 $db_server = new mysqli("localhost", "root", "root", "schedule");
 if ($db_server->connect_errno) {
@@ -12,6 +13,22 @@ if ($db_server->connect_errno) {
 $newdayoff = $_POST['dayoff'];
 mylog('the value insertdays should be getting is ' . $newdayoff);
 
+=======
+global $db_server;
+#$db_server = new mysqli("localhost", "root", "root", "schedule");
+#if ($db_server->connect_errno) {
+#    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+#}
+$db_server = mysqli_connect("localhost", "root", "root", "schedule");
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$newdayoff = $_POST['dayoff'];
+mylog('the value insertdays should be getting is ' . $newdayoff);
+
+>>>>>>> Stashed changes
 function checkforinactiveday($dateinquestion){
     mylog('started to check for inactive day');
     $inactivedaycheck = "SELECT active FROM days WHERE daate = '$dateinquestion';";
@@ -38,6 +55,7 @@ function checkforinactiveday($dateinquestion){
 
 function insertdays($date){
     $today = date('Y-m-d');
+<<<<<<< Updated upstream
     mylog('value that insert days is actually getting is ' . $date);
     //when a day is added it's posted to offdays
     $adddayoff = "INSERT INTO offdays(numdate) VALUES ('$date') EXCEPT SELECT numdate FROM offdays";
@@ -59,6 +77,33 @@ function insertdays($date){
     $letterofinactiveday = $row['cycleday'];
     mylog("the cycle day that will now be built off of is: $letterofinactiveday");
 
+=======
+    mylog('started to insert days');
+    //when a day is added it's posted to offdays
+    
+
+    //select cycleday value of day that will be marked inactive
+    $grabletterofinactiveday = "SELECT cycleday FROM days WHERE daate = '$date';";
+    mylog($grabletterofinactiveday);
+    
+    #$grabletterofinactivedayresult = mysqli_query($db_server, $grabletterofinactiveday);
+    #if ($grabletterofinactivedayresult->connect_errno) {
+    #echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+    #}
+    if ($grabletterofinactivedayresult = mysqli_query($db_server, $grabletterofinactiveday))
+    {
+        $row = mysqli_fetch_assoc($grabletterofinactivedayresult);
+        mylog("row is " . print_r($row, true));
+        $cycledayofinactiveday = $row['cycleday'];
+        mylog("this is the cycle day of the posted date: $cycledayofinactiveday");
+        mysqli_free_result($grabletterofinactivedayresult);
+    }
+    else
+    {
+        mylog('query failed');
+    }
+    
+>>>>>>> Stashed changes
     //update row of day about to be "removed" to be inactive
     $makedayinactive = "UPDATE days SET active = 'n', daymodified = '$today' WHERE daate = '$date';";
     mylog($makedayinactive);
@@ -74,7 +119,11 @@ function insertdays($date){
 
     }
 
+<<<<<<< Updated upstream
     mylog("off day query succeeded");
+=======
+    mylog('made it through queries');
+>>>>>>> Stashed changes
     
 
     //bug to fix later: queries don't run inside function
@@ -82,7 +131,11 @@ function insertdays($date){
     //make day that was added to the days off list an inactive day
 
     //updating, reinserting the new data
+<<<<<<< Updated upstream
     */
+=======
+    
+>>>>>>> Stashed changes
     $x = 0;
     $cyc = 5;
     $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
@@ -90,6 +143,7 @@ function insertdays($date){
     echo $b;
     echo $letterofinactiveday;
     echo $b;
+<<<<<<< Updated upstream
     /*mylog('made it to 89');
     $truncate = "TRUNCATE TABLE days;";
     mylog($truncate);
@@ -98,6 +152,9 @@ function insertdays($date){
         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
     }
     mylog('got past truncate, unsure if working');*/
+=======
+
+>>>>>>> Stashed changes
     while ($x <= 364):
         mylog('while started');
         $date = date('Y-m-d', strtotime("+ $x day"));
