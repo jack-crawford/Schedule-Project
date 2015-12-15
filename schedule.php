@@ -24,8 +24,6 @@ $row = mysqli_fetch_array($todayresult, MYSQLI_ASSOC);
 mylog("fetched today's date");
 mysqli_free_result($todayresult);
 printf($row['cycleday']);
-<<<<<<< Updated upstream
-=======
 
 function regenschedule(){
     $x = 0;
@@ -65,7 +63,6 @@ function regenschedule(){
     endwhile; 
 }
 
->>>>>>> Stashed changes
 
 mysqli_close($db_server);
 
