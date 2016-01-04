@@ -34,8 +34,7 @@ function regenschedule(){
         mylog('while started');
         $date = date('Y-m-d', strtotime("+ $x day"));
         mylog($date);
-        //$offdayz = checkforinactiveday($date);
-        //mylog($offdayz);
+        
         //if it's a weekend, skip
         if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" /*|| $offdayz = 'true'*/){
             $x = $x + 1;
