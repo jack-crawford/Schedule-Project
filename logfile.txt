@@ -54798,3 +54798,51 @@
 2016-01-04 17:07:31: E
 2016-01-04 17:25:20: SELECT cycleday FROM days WHERE daate = '2016-01-04'
 2016-01-04 17:25:20: fetched today's date
+2016-01-05 16:05:43: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:05:43: fetched today's date
+2016-01-05 16:41:16: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:41:16: fetched today's date
+2016-01-05 16:42:57: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:42:57: fetched today's date
+2016-01-05 16:43:10: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:43:10: fetched today's date
+2016-01-05 16:43:22: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:43:22: fetched today's date
+2016-01-05 16:45:37: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:45:37: fetched today's date
+2016-01-05 16:47:06: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:47:06: fetched today's date
+2016-01-05 16:47:10: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:47:10: fetched today's date
+2016-01-05 16:49:29: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:49:29: fetched today's date
+2016-01-05 16:50:14: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:50:14: fetched today's date
+2016-01-05 16:52:50: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:52:50: fetched today's date
+2016-01-05 16:52:53: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:52:53: fetched today's date
+2016-01-05 16:58:36: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 16:58:36: fetched today's date
+2016-01-05 17:01:52: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:01:52: fetched today's date
+2016-01-05 17:02:53: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:02:53: fetched today's date
+2016-01-05 17:03:10: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:03:10: fetched today's date
+2016-01-05 17:03:21: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:03:21: fetched today's date
+2016-01-05 17:03:27: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:03:27: fetched today's date
+2016-01-05 17:06:23: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:06:23: fetched today's date
+2016-01-05 17:07:55: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:07:55: fetched today's date
+2016-01-05 17:08:03: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:08:03: fetched today's date
+2016-01-05 17:09:03: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:09:03: fetched today's date
+2016-01-05 17:10:12: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:10:12: fetched today's date
+2016-01-05 17:10:17: SELECT cycleday FROM days WHERE daate = '2016-01-05'
+2016-01-05 17:10:17: fetched today's date

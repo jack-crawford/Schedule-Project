@@ -62,7 +62,20 @@ function regenschedule(){
     endwhile; 
 }
 
+function updateschedule($cycofnewlyinactivedate, $newlyinactivedate){
+    
+    
+    
+    $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
+    
 
+
+
+}
+echo $b;
+echo date("Y-m-d", strtotime("+ 1 day", "11.12.11"));
+echo $b;
+echo strtotime("+ 2 day", "11-11-2011");
 mysqli_close($db_server);
 
 ?>
