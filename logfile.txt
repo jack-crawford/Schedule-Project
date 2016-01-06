@@ -54846,3 +54846,298 @@
 2016-01-05 17:10:12: fetched today's date
 2016-01-05 17:10:17: SELECT cycleday FROM days WHERE daate = '2016-01-05'
 2016-01-05 17:10:17: fetched today's date
+2016-01-06 12:33:41: SELECT cycleday FROM days WHERE daate = '2016-01-06'
+2016-01-06 12:33:41: fetched today's date
+2016-01-06 12:34:05: SELECT cycleday FROM days WHERE daate = '2016-01-06'
+2016-01-06 12:34:05: fetched today's date
+2016-01-06 13:08:13: the value insertdays should be getting is 2015-12-14
+2016-01-06 13:08:13: started to insert days
+2016-01-06 13:08:13: SELECT cycleday FROM days WHERE daate = '2015-12-14';
+2016-01-06 13:08:13: row is Array
+(
+    [cycleday] => E
+)
+
+2016-01-06 13:08:13: this is the cycle day of the posted date: E
+2016-01-06 13:08:13: UPDATE days SET active = 'n', daymodified = '2016-01-06' WHERE daate = '2015-12-14';
+2016-01-06 13:08:13: made it through queries
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-06
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-06';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-06 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-07
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-07';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-07 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-08
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-08';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-08 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-09
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-09';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-09 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-10
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-10';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-10 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-11
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-11';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-11 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-12
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-12';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-12 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-13
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-13';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-13 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-14
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-14';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-14 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-15
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-15';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-15 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-16
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-16';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-16 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-17
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-17';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-17 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-18
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-18';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-18 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-19
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-19';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-19 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-20
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-20';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-20 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-21
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-21';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-21 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-22
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-22';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-22 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-23
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-23';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-23 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-24
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-24';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-24 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-25
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-25';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-25 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-26
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-26';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-26 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-27
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-27';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-27 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-28
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-28';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-28 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-29
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-29';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-29 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-30
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-30';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-30 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-01-31
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-01-31';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-01-31 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-02-01
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-02-01';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-02-01 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-02-02
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-02-02';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-02-02 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-02-03
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-02-03';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-02-03 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-02-04
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-02-04';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-02-04 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-02-05
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-02-05';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-02-05 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-02-06
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-02-06';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-02-06 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-02-07
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-02-07';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-02-07 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-02-08
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-02-08';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-02-08 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed
+2016-01-06 13:08:13: while started
+2016-01-06 13:08:13: 2016-02-09
+2016-01-06 13:08:13: started to check for inactive day
+2016-01-06 13:08:13: SELECT active FROM days WHERE daate = '2016-02-09';
+2016-01-06 13:08:13: ran the inactive day query
+2016-01-06 13:08:13: active status for 2016-02-09 is 
+2016-01-06 13:08:13: false
+2016-01-06 13:08:13: weekend or offday removed

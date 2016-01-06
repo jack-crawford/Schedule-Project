@@ -75,7 +75,7 @@ function updateschedule($cycofnewlyinactivedate, $newlyinactivedate){
 echo $b;
 echo date("Y-m-d", strtotime("+ 1 day", "11.12.11"));
 echo $b;
-echo strtotime("+ 2 day", "11-11-2011");
+echo date("d-m-Y", strtotime("+ 2 day", "11-11-2011"));
 mysqli_close($db_server);
 
 ?>
