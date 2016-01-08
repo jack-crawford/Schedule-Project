@@ -72,10 +72,15 @@ function updateschedule($cycofnewlyinactivedate, $newlyinactivedate){
 
 
 }
+
+//reminder: keep dates in YYYY-MM-DD format
 echo $b;
-echo date("Y-m-d", strtotime("+ 1 day", "11.12.11"));
+echo date("Y-m-d", strtotime("2011-12-11"));
 echo $b;
-echo date("d-m-Y", strtotime("+ 2 day", "11-11-2011"));
+echo date("Y-m-d", strtotime("+1 day", strtotime("1998-07-11")));
+
+
+
 mysqli_close($db_server);
 
 ?>
