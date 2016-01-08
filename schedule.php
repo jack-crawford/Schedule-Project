@@ -64,20 +64,45 @@ function regenschedule(){
 
 function updateschedule($cycofnewlyinactivedate, $newlyinactivedate){
     
-    
-    
+    $x = 0;
     $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
-    
+    $cyc = array_search($cycofnewlyinactivedate, $cycarray);
 
-
+    while ($x <= 364):
+        mylog('while started');
+        $date = date('Y-m-d', strtotime("+ $x day", strtotime($newlyinactivedate)));
+        mylog($date);
+        
+        //if it's a weekend, skip
+        if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" /*|| $offdayz = 'true'*/){
+            $x = $x + 1;
+            mylog('weekend or offday removed');
+        } else {
+            mylog('entered reinsert phase');
+            $letter = $cyc_array[$cyc];
+            mylog('should be starting with ' . $letter);
+            $cyc = ($cyc==5) ? 0 : $cyc + 1;
+            mylog("letter is $letter, cyc is $cyc");
+            $dayquery = "INSERT INTO days(cycleday, daate, active, daymodified) VALUES ('$letter','$date', 'y', '$today');";
+            mylog($dayquery);
+            $result = mysqli_query($db_server, $dayquery);       
+            if ($result->connect_errno) {
+                echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+            }
+            mylog($letter);
+            echo "  ";
+            echo $letter;
+            echo "  ";
+            echo $date;
+            echo "</br>";
+            $x = $x + 1;
+        }
+    endwhile; 
 
 }
 
 //reminder: keep dates in YYYY-MM-DD format
-echo $b;
-echo date("Y-m-d", strtotime("2011-12-11"));
-echo $b;
-echo date("Y-m-d", strtotime("+1 day", strtotime("1998-07-11")));
+
 
 
 

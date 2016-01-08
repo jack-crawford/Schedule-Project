@@ -63,10 +63,6 @@ function insertdays($date){
     $grabletterofinactiveday = "SELECT cycleday FROM days WHERE daate = '$date';";
     mylog($grabletterofinactiveday);
     
-    #$grabletterofinactivedayresult = mysqli_query($db_server, $grabletterofinactiveday);
-    #if ($grabletterofinactivedayresult->connect_errno) {
-    #echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    #}
     if ($grabletterofinactivedayresult = mysqli_query($db_server, $grabletterofinactiveday))
     {
         $row = mysqli_fetch_assoc($grabletterofinactivedayresult);
@@ -97,28 +93,22 @@ function insertdays($date){
 
     mylog('made it through queries');
     
-
     //bug to fix later: queries don't run inside function
     //set cyc to value corresponding with the current day 
     //make day that was added to the days off list an inactive day
 
     //updating, reinserting the new data
     $x = 0;
-    $cyc = 5;
     $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
-    echo $date;
-    echo $b;
-    echo $letterofinactiveday;
-    echo $b;
-    
-    while ($x <= 34):
+    $cyc = array_search($cycofnewlyinactivedate, $cyc_array);
+    mylog("the letter day now used on the next day is: $cyc")
+    while ($x <= 364):
         mylog('while started');
-        $date = date('Y-m-d', strtotime("+ $x day"));
-        mylog($date);
-        $offdayz = checkforinactiveday($date);
-        mylog($offdayz);
+        $newlyinactivedate = date('Y-m-d', strtotime("+ $x day", strtotime($date)));
+        mylog($newlyinactivedate);
+        
         //if it's a weekend, skip
-        if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" || $offdayz = 'true'){
+        if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" /*|| $offdayz = 'true'*/){
             $x = $x + 1;
             mylog('weekend or offday removed');
         } else {
@@ -127,7 +117,7 @@ function insertdays($date){
             mylog('should be starting with ' . $letter);
             $cyc = ($cyc==5) ? 0 : $cyc + 1;
             mylog("letter is $letter, cyc is $cyc");
-            $dayquery = "INSERT INTO days(cycleday, daate, active, daymodified) VALUES ('$letter','$date', 'y', '$today');";
+            $dayquery = "INSERT INTO days(cycleday, daate, active, daymodified) VALUES ('$letter','$newlyinactivedate', 'y', '$today');";
             mylog($dayquery);
             $result = mysqli_query($db_server, $dayquery);       
             if ($result->connect_errno) {
@@ -137,11 +127,11 @@ function insertdays($date){
             echo "  ";
             echo $letter;
             echo "  ";
-            echo $date;
+            echo $newlyinactivedate;
             echo "</br>";
             $x = $x + 1;
         }
-    endwhile;
+    endwhile; 
     echo $b;
     echo "thank you, $date has been removed from the schedule";
 }
