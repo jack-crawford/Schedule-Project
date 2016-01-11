@@ -55307,3 +55307,4320 @@
 2016-01-11 12:13:04: this is the cycle day of the posted date: F
 2016-01-11 12:13:04: UPDATE days SET active = 'n', daymodified = '2016-01-11' WHERE daate = '2016-01-18';
 2016-01-11 12:13:04: made day inactive
+2016-01-11 12:15:26: post begins
+2016-01-11 12:15:26: the value insertdays should be getting is 2016-01-18
+2016-01-11 12:15:26: started to insert days
+2016-01-11 12:15:26: SELECT cycleday FROM days WHERE daate = '2016-01-18';
+2016-01-11 12:15:26: row is Array
+(
+    [cycleday] => F
+)
+
+2016-01-11 12:15:26: this is the cycle day of the posted date: F
+2016-01-11 12:15:26: UPDATE days SET active = 'n', daymodified = '2016-01-11' WHERE daate = '2016-01-18';
+2016-01-11 12:15:26: made day inactive
+2016-01-11 12:34:22: post begins
+2016-01-11 12:34:22: the value insertdays should be getting is 2016-01-18
+2016-01-11 12:34:22: made it through queries
+2016-01-11 12:34:22: started to insert days
+2016-01-11 12:34:22: SELECT cycleday FROM days WHERE daate = '2016-01-18';
+2016-01-11 12:34:22: row is Array
+(
+    [cycleday] => F
+)
+
+2016-01-11 12:34:22: this is the cycle day of the posted date: F
+2016-01-11 12:34:22: UPDATE days SET active = 'n', daymodified = '2016-01-11' WHERE daate = '2016-01-18';
+2016-01-11 12:34:22: made day inactive
+2016-01-11 12:34:22: the letter day now used on the next day is: 5
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1969-12-31
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1969-12-31';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-01
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-01-01';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-02
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-01-02';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-03
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-01-03';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-04
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-01-04';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-05
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-06
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-07
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-01-07';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-08
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-01-08';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-09
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-01-09';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-10
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-01-10';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-11
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-01-11';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-12
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-13
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-14
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-01-14';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-15
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-01-15';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-16
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-01-16';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-17
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-01-17';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-18
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-01-18';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-19
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-20
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-21
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-01-21';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-22
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-01-22';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-23
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-01-23';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-24
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-01-24';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-25
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-01-25';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-26
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-27
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-28
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-01-28';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-29
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-01-29';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-30
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-01-30';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-01-31
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-01-31';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-01
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-02-01';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-02
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-03
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-04
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-02-04';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-05
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-02-05';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-06
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-02-06';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-07
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-02-07';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-08
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-02-08';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-09
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-10
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-11
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-02-11';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-12
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-02-12';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-13
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-02-13';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-14
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-02-14';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-15
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-02-15';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-16
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-17
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-18
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-02-18';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-19
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-02-19';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-20
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-02-20';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-21
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-02-21';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-22
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-02-22';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-23
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-24
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-25
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-02-25';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-26
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-02-26';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-27
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-02-27';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-02-28
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-02-28';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-01
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-03-01';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-02
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-03
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-04
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-03-04';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-05
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-03-05';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-06
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-03-06';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-07
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-03-07';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-08
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-03-08';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-09
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-10
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-11
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-03-11';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-12
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-03-12';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-13
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-03-13';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-14
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-03-14';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-15
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-03-15';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-16
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-17
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-18
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-03-18';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-19
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-03-19';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-20
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-03-20';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-21
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-03-21';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-22
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-03-22';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-23
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-24
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-25
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-03-25';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-26
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-03-26';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-27
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-03-27';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-28
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-03-28';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-29
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-03-29';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-30
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-03-31
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-01
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-04-01';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-02
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-04-02';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-03
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-04-03';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-04
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-04-04';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-05
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-04-05';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-06
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-07
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-08
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-04-08';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-09
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-04-09';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-10
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-04-10';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-11
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-04-11';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-12
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-04-12';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-13
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-14
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-15
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-04-15';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-16
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-04-16';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-17
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-04-17';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-18
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-04-18';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-19
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-04-19';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-20
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-21
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-22
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-04-22';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-23
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-04-23';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-24
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-04-24';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-25
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-04-25';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-26
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-04-26';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-27
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-28
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-29
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-04-29';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-04-30
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-04-30';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-01
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-05-01';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-02
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-05-02';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-03
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-05-03';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-04
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-05
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-06
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-05-06';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-07
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-05-07';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-08
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-05-08';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-09
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-05-09';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-10
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-05-10';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-11
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-12
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-13
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-05-13';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-14
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-05-14';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-15
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-05-15';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-16
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-05-16';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-17
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-05-17';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-18
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-19
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-20
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-05-20';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-21
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-05-21';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-22
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-05-22';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-23
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-05-23';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-24
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-05-24';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-25
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-26
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-27
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-05-27';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-28
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-05-28';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-29
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-05-29';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-30
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-05-30';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-05-31
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-05-31';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-01
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-02
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-03
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-06-03';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-04
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-06-04';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-05
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-06-05';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-06
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-06-06';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-07
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-06-07';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-08
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-09
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-10
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-06-10';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-11
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-06-11';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-12
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-06-12';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-13
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-06-13';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-14
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-06-14';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-15
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-16
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-17
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-06-17';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-18
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-06-18';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-19
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-06-19';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-20
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-06-20';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-21
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-06-21';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-22
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-23
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-24
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-06-24';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-25
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-06-25';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-26
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-06-26';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-27
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-06-27';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-28
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-06-28';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-29
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-06-30
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-01
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-07-01';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-02
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-07-02';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-03
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-07-03';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-04
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-07-04';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-05
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-07-05';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-06
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-07
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-08
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-07-08';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-09
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-07-09';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-10
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-07-10';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-11
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-07-11';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-12
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-07-12';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-13
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-14
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-15
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-07-15';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-16
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-07-16';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-17
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-07-17';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-18
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-07-18';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-19
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-07-19';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-20
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-21
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-22
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-07-22';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-23
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-07-23';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-24
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-07-24';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-25
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-07-25';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-26
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-07-26';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-27
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-28
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-29
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-07-29';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-30
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-07-30';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-07-31
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-07-31';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-01
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-08-01';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-02
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-08-02';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-03
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-04
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-05
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-08-05';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-06
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-08-06';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-07
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-08-07';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-08
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-08-08';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-09
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-08-09';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-10
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-11
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-12
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-08-12';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-13
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-08-13';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-14
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-08-14';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-15
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-08-15';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-16
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-08-16';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-17
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-18
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-19
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-08-19';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-20
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-08-20';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-21
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-08-21';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-22
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-08-22';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-23
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-08-23';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-24
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-25
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-26
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-08-26';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-27
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-08-27';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-28
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-08-28';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-29
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-08-29';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-30
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-08-30';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-08-31
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-01
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-02
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-09-02';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-03
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-09-03';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-04
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-09-04';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-05
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-09-05';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-06
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-09-06';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-07
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-08
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-09
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-09-09';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-10
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-09-10';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-11
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-09-11';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-12
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-09-12';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-13
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-09-13';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-14
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-15
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-16
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-09-16';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-17
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-09-17';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-18
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-09-18';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-19
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-09-19';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-20
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-09-20';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-21
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-22
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-23
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-09-23';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-24
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-09-24';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-25
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-09-25';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-26
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-09-26';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-27
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-09-27';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-28
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-29
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-09-30
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-09-30';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-01
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-10-01';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-02
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-10-02';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-03
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-10-03';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-04
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-10-04';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-05
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-06
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-07
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-10-07';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-08
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-10-08';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-09
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-10-09';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-10
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-10-10';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-11
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-10-11';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-12
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-13
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-14
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-10-14';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-15
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-10-15';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-16
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-10-16';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-17
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-10-17';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-18
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-10-18';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-19
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-20
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-21
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-10-21';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-22
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-10-22';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-23
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-10-23';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-24
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-10-24';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-25
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-10-25';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-26
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-27
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-28
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-10-28';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-29
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-10-29';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-30
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-10-30';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-10-31
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-10-31';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-01
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-11-01';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-02
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-03
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-04
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-11-04';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-05
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-11-05';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-06
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-11-06';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-07
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-11-07';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-08
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-11-08';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-09
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-10
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-11
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-11-11';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-12
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-11-12';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-13
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-11-13';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-14
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-11-14';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-15
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-11-15';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-16
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-17
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-18
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-11-18';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-19
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-11-19';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-20
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-11-20';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-21
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-11-21';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-22
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-11-22';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-23
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-24
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-25
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-11-25';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-26
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-11-26';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-27
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-11-27';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-28
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-11-28';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-29
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-11-29';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-11-30
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-01
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-02
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-12-02';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-03
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-12-03';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-04
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-12-04';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-05
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-12-05';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-06
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-12-06';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-07
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-08
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-09
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-12-09';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-10
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with F
+2016-01-11 12:34:22: letter is F, cyc is 0
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-12-10';
+2016-01-11 12:34:22: F
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-11
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with A
+2016-01-11 12:34:22: letter is A, cyc is 1
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-12-11';
+2016-01-11 12:34:22: A
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-12
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with B
+2016-01-11 12:34:22: letter is B, cyc is 2
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-12-12';
+2016-01-11 12:34:22: B
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-13
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with C
+2016-01-11 12:34:22: letter is C, cyc is 3
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-12-13';
+2016-01-11 12:34:22: C
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-14
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-15
+2016-01-11 12:34:22: weekend or offday removed
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-16
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with D
+2016-01-11 12:34:22: letter is D, cyc is 4
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-12-16';
+2016-01-11 12:34:22: D
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-17
+2016-01-11 12:34:22: entered reinsert phase
+2016-01-11 12:34:22: should be starting with E
+2016-01-11 12:34:22: letter is E, cyc is 5
+2016-01-11 12:34:22: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-12-17';
+2016-01-11 12:34:22: E
+2016-01-11 12:34:22: while started
+2016-01-11 12:34:22: 1970-12-18
+2016-01-11 12:34:23: entered reinsert phase
+2016-01-11 12:34:23: should be starting with F
+2016-01-11 12:34:23: letter is F, cyc is 0
+2016-01-11 12:34:23: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-12-18';
+2016-01-11 12:34:23: F
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-19
+2016-01-11 12:34:23: entered reinsert phase
+2016-01-11 12:34:23: should be starting with A
+2016-01-11 12:34:23: letter is A, cyc is 1
+2016-01-11 12:34:23: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-12-19';
+2016-01-11 12:34:23: A
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-20
+2016-01-11 12:34:23: entered reinsert phase
+2016-01-11 12:34:23: should be starting with B
+2016-01-11 12:34:23: letter is B, cyc is 2
+2016-01-11 12:34:23: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-12-20';
+2016-01-11 12:34:23: B
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-21
+2016-01-11 12:34:23: weekend or offday removed
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-22
+2016-01-11 12:34:23: weekend or offday removed
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-23
+2016-01-11 12:34:23: entered reinsert phase
+2016-01-11 12:34:23: should be starting with C
+2016-01-11 12:34:23: letter is C, cyc is 3
+2016-01-11 12:34:23: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-12-23';
+2016-01-11 12:34:23: C
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-24
+2016-01-11 12:34:23: entered reinsert phase
+2016-01-11 12:34:23: should be starting with D
+2016-01-11 12:34:23: letter is D, cyc is 4
+2016-01-11 12:34:23: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-12-24';
+2016-01-11 12:34:23: D
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-25
+2016-01-11 12:34:23: entered reinsert phase
+2016-01-11 12:34:23: should be starting with E
+2016-01-11 12:34:23: letter is E, cyc is 5
+2016-01-11 12:34:23: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-12-25';
+2016-01-11 12:34:23: E
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-26
+2016-01-11 12:34:23: entered reinsert phase
+2016-01-11 12:34:23: should be starting with F
+2016-01-11 12:34:23: letter is F, cyc is 0
+2016-01-11 12:34:23: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-12-26';
+2016-01-11 12:34:23: F
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-27
+2016-01-11 12:34:23: entered reinsert phase
+2016-01-11 12:34:23: should be starting with A
+2016-01-11 12:34:23: letter is A, cyc is 1
+2016-01-11 12:34:23: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-12-27';
+2016-01-11 12:34:23: A
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-28
+2016-01-11 12:34:23: weekend or offday removed
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-29
+2016-01-11 12:34:23: weekend or offday removed
+2016-01-11 12:34:23: while started
+2016-01-11 12:34:23: 1970-12-30
+2016-01-11 12:34:23: entered reinsert phase
+2016-01-11 12:34:23: should be starting with B
+2016-01-11 12:34:23: letter is B, cyc is 2
+2016-01-11 12:34:23: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-12-30';
+2016-01-11 12:34:23: B
+2016-01-11 12:43:53: post begins
+2016-01-11 12:43:53: the value insertdays should be getting is 2016-01-18
+2016-01-11 12:43:53: started to insert days
+2016-01-11 12:43:53: SELECT cycleday FROM days WHERE daate = '2016-01-18';
+2016-01-11 12:43:53: row is Array
+(
+    [cycleday] => F
+)
+
+2016-01-11 12:43:53: this is the cycle day of the posted date: F
+2016-01-11 12:43:53: UPDATE days SET active = 'n', daymodified = '2016-01-11' WHERE daate = '2016-01-18';
+2016-01-11 12:43:53: made day inactive
+2016-01-11 12:43:53: the letter day now used on the next day is: 5
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1969-12-31
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1969-12-31';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-01
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-01-01';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-02
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-01-02';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-03
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-01-03';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-04
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-01-04';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-05
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-06
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-07
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-01-07';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-08
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-01-08';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-09
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-01-09';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-10
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-01-10';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-11
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-01-11';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-12
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-13
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-14
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-01-14';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-15
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-01-15';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-16
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-01-16';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-17
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-01-17';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-18
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-01-18';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-19
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-20
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-21
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-01-21';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-22
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-01-22';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-23
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-01-23';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-24
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-01-24';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-25
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-01-25';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-26
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-27
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-28
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-01-28';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-29
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-01-29';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-30
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-01-30';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-01-31
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-01-31';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-01
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-02-01';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-02
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-03
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-04
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-02-04';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-05
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-02-05';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-06
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-02-06';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-07
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-02-07';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-08
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-02-08';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-09
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-10
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-11
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-02-11';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-12
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-02-12';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-13
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-02-13';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-14
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-02-14';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-15
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-02-15';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-16
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-17
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-18
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-02-18';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-19
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-02-19';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-20
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-02-20';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-21
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-02-21';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-22
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-02-22';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-23
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-24
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-25
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-02-25';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-26
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-02-26';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-27
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-02-27';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-02-28
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-02-28';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-01
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-03-01';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-02
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-03
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-04
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-03-04';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-05
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-03-05';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-06
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-03-06';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-07
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-03-07';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-08
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-03-08';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-09
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-10
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-11
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-03-11';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-12
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-03-12';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-13
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-03-13';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-14
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-03-14';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-15
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-03-15';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-16
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-17
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-18
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-03-18';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-19
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-03-19';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-20
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-03-20';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-21
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-03-21';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-22
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-03-22';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-23
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-24
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-25
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-03-25';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-26
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-03-26';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-27
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-03-27';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-28
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-03-28';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-29
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-03-29';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-30
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-03-31
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-01
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-04-01';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-02
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-04-02';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-03
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-04-03';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-04
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-04-04';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-05
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-04-05';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-06
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-07
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-08
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-04-08';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-09
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-04-09';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-10
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-04-10';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-11
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-04-11';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-12
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-04-12';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-13
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-14
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-15
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-04-15';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-16
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-04-16';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-17
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-04-17';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-18
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-04-18';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-19
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-04-19';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-20
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-21
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-22
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-04-22';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-23
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-04-23';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-24
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-04-24';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-25
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-04-25';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-26
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-04-26';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-27
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-28
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-29
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-04-29';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-04-30
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-04-30';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-01
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-05-01';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-02
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-05-02';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-03
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-05-03';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-04
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-05
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-06
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-05-06';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-07
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-05-07';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-08
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-05-08';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-09
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-05-09';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-10
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-05-10';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-11
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-12
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-13
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-05-13';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-14
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-05-14';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-15
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-05-15';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-16
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-05-16';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-17
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-05-17';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-18
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-19
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-20
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-05-20';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-21
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-05-21';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-22
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-05-22';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-23
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-05-23';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-24
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-05-24';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-25
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-26
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-27
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-05-27';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-28
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-05-28';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-29
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-05-29';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-30
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-05-30';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-05-31
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-05-31';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-01
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-02
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-03
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-06-03';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-04
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-06-04';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-05
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-06-05';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-06
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-06-06';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-07
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-06-07';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-08
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-09
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-10
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-06-10';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-11
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-06-11';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-12
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-06-12';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-13
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-06-13';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-14
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-06-14';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-15
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-16
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-17
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-06-17';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-18
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-06-18';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-19
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-06-19';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-20
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-06-20';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-21
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-06-21';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-22
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-23
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-24
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-06-24';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-25
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-06-25';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-26
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-06-26';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-27
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-06-27';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-28
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-06-28';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-29
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-06-30
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-01
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-07-01';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-02
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-07-02';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-03
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-07-03';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-04
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-07-04';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-05
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-07-05';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-06
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-07
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-08
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-07-08';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-09
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-07-09';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-10
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-07-10';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-11
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-07-11';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-12
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-07-12';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-13
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-14
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-15
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-07-15';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-16
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-07-16';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-17
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-07-17';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-18
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-07-18';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-19
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-07-19';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-20
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-21
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-22
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-07-22';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-23
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-07-23';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-24
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-07-24';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-25
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-07-25';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-26
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-07-26';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-27
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-28
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-29
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-07-29';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-30
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-07-30';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-07-31
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-07-31';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-01
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-08-01';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-02
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-08-02';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-03
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-04
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-05
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-08-05';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-06
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-08-06';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-07
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-08-07';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-08
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-08-08';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-09
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-08-09';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-10
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-11
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-12
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-08-12';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-13
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-08-13';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-14
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-08-14';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-15
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-08-15';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-16
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-08-16';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-17
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-18
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-19
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-08-19';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-20
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-08-20';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-21
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-08-21';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-22
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-08-22';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-23
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-08-23';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-24
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-25
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-26
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-08-26';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-27
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-08-27';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-28
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-08-28';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-29
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-08-29';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-30
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-08-30';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-08-31
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-01
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-02
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-09-02';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-03
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-09-03';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-04
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-09-04';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-05
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-09-05';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-06
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-09-06';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-07
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-08
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-09
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-09-09';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-10
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-09-10';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-11
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-09-11';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-12
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-09-12';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-13
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-09-13';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-14
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-15
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-16
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-09-16';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-17
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-09-17';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-18
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-09-18';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-19
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-09-19';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-20
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with C
+2016-01-11 12:43:53: letter is C, cyc is 3
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-09-20';
+2016-01-11 12:43:53: C
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-21
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-22
+2016-01-11 12:43:53: weekend or offday removed
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-23
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with D
+2016-01-11 12:43:53: letter is D, cyc is 4
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-09-23';
+2016-01-11 12:43:53: D
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-24
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with E
+2016-01-11 12:43:53: letter is E, cyc is 5
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-09-24';
+2016-01-11 12:43:53: E
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-25
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with F
+2016-01-11 12:43:53: letter is F, cyc is 0
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-09-25';
+2016-01-11 12:43:53: F
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-26
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with A
+2016-01-11 12:43:53: letter is A, cyc is 1
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-09-26';
+2016-01-11 12:43:53: A
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-27
+2016-01-11 12:43:53: entered reinsert phase
+2016-01-11 12:43:53: should be starting with B
+2016-01-11 12:43:53: letter is B, cyc is 2
+2016-01-11 12:43:53: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-09-27';
+2016-01-11 12:43:53: B
+2016-01-11 12:43:53: while started
+2016-01-11 12:43:53: 1970-09-28
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-09-29
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-09-30
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-09-30';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-01
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-10-01';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-02
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-10-02';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-03
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-10-03';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-04
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-10-04';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-05
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-06
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-07
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-10-07';
+2016-01-11 12:43:54: B
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-08
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-10-08';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-09
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-10-09';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-10
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-10-10';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-11
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-10-11';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-12
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-13
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-14
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-10-14';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-15
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-10-15';
+2016-01-11 12:43:54: B
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-16
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-10-16';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-17
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-10-17';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-18
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-10-18';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-19
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-20
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-21
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-10-21';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-22
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-10-22';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-23
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-10-23';
+2016-01-11 12:43:54: B
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-24
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-10-24';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-25
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-10-25';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-26
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-27
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-28
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-10-28';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-29
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-10-29';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-30
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-10-30';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-10-31
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-10-31';
+2016-01-11 12:43:54: B
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-01
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-11-01';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-02
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-03
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-04
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-11-04';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-05
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-11-05';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-06
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-11-06';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-07
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-11-07';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-08
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-11-08';
+2016-01-11 12:43:54: B
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-09
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-10
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-11
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-11-11';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-12
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-11-12';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-13
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-11-13';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-14
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-11-14';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-15
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-11-15';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-16
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-17
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-18
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-11-18';
+2016-01-11 12:43:54: B
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-19
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-11-19';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-20
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-11-20';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-21
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-11-21';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-22
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-11-22';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-23
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-24
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-25
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-11-25';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-26
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-11-26';
+2016-01-11 12:43:54: B
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-27
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-11-27';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-28
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-11-28';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-29
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-11-29';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-11-30
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-01
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-02
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-12-02';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-03
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-12-03';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-04
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-12-04';
+2016-01-11 12:43:54: B
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-05
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-12-05';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-06
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-12-06';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-07
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-08
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-09
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-12-09';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-10
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-12-10';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-11
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-12-11';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-12
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-12-12';
+2016-01-11 12:43:54: B
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-13
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-12-13';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-14
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-15
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-16
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-12-16';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-17
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-12-17';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-18
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-12-18';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-19
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-12-19';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-20
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-12-20';
+2016-01-11 12:43:54: B
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-21
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-22
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-23
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with C
+2016-01-11 12:43:54: letter is C, cyc is 3
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'C', daymodified = '' WHERE 'daate' = '1970-12-23';
+2016-01-11 12:43:54: C
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-24
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with D
+2016-01-11 12:43:54: letter is D, cyc is 4
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'D', daymodified = '' WHERE 'daate' = '1970-12-24';
+2016-01-11 12:43:54: D
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-25
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with E
+2016-01-11 12:43:54: letter is E, cyc is 5
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'E', daymodified = '' WHERE 'daate' = '1970-12-25';
+2016-01-11 12:43:54: E
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-26
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with F
+2016-01-11 12:43:54: letter is F, cyc is 0
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'F', daymodified = '' WHERE 'daate' = '1970-12-26';
+2016-01-11 12:43:54: F
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-27
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with A
+2016-01-11 12:43:54: letter is A, cyc is 1
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'A', daymodified = '' WHERE 'daate' = '1970-12-27';
+2016-01-11 12:43:54: A
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-28
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-29
+2016-01-11 12:43:54: weekend or offday removed
+2016-01-11 12:43:54: while started
+2016-01-11 12:43:54: 1970-12-30
+2016-01-11 12:43:54: entered reinsert phase
+2016-01-11 12:43:54: should be starting with B
+2016-01-11 12:43:54: letter is B, cyc is 2
+2016-01-11 12:43:54: UPDATE days SET cycleday = 'B', daymodified = '' WHERE 'daate' = '1970-12-30';
+2016-01-11 12:43:54: B

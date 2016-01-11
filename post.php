@@ -46,6 +46,46 @@ function checkforinactiveday($dateinquestion){
     }
 }
 
+function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate) {
+    $x = 0;
+    $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
+    $cyc = array_search($cycofnewlyinactivedate, $cyc_array);
+    mylog("the letter day now used on the next day is: $cyc");
+    while ($x <= 364):
+        mylog('while started');
+        $newlyinactivedatep1 = date('Y-m-d', strtotime($date));
+        mylog($newlyinactivedatep1);
+        $newlyinactivedate = date('Y-m-d', strtotime("+ $x day", $newlyinactivedatep1));
+        mylog($newlyinactivedate);
+        
+        //if it's a weekend, skip
+        if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" /*|| $offdayz = 'true'*/){
+            $x = $x + 1;
+            mylog('weekend or offday removed');
+        } else {
+            mylog('entered reinsert phase');
+            $letter = $cyc_array[$cyc];
+            mylog('should be starting with ' . $letter);
+            $cyc = ($cyc==5) ? 0 : $cyc + 1;
+            mylog("letter is $letter, cyc is $cyc");
+            $dayquery = "UPDATE days SET cycleday = '$letter', daymodified = '$today' WHERE 'daate' = '$newlyinactivedate';";
+            mylog($dayquery);
+            $result = mysqli_query($db_server, $dayquery);       
+            if ($result->connect_errno) {
+                echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+            }
+            mylog($letter);
+            echo "  ";
+            echo $letter;
+            echo "  ";
+            echo $newlyinactivedate;
+            echo "</br>";
+            $x = $x + 1;
+        }
+    endwhile;
+    echo $b;
+    echo "thank you, $newlyinactivedate has been removed from the schedule";
+}
 
 
 function insertdays($date){
@@ -86,61 +126,11 @@ function insertdays($date){
     } else {
         mylog("made day inactive");
     }
+    updaterestoftable($date, $cycledayofinactiveday);
 }
-    /*
+    
     //Pull offday list, necessary?
     $offdayssql = array();
-
-    while($row = mysqli_fetch_array($offdaytable)){
-        $offdayssql[] = $row['numdate'];
-
-    }
-
-    mylog('made it through queries');
-    
-    //bug to fix later: queries don't run inside function
-    //set cyc to value corresponding with the current day 
-    //make day that was added to the days off list an inactive day
-
-    //updating, reinserting the new data
-    $x = 0;
-    $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
-    $cyc = array_search($cycofnewlyinactivedate, $cyc_array);
-    mylog("the letter day now used on the next day is: $cyc")
-    while ($x <= 364) {
-        mylog('while started');
-        $newlyinactivedate = date('Y-m-d', strtotime("+ $x day", strtotime($date)));
-        mylog($newlyinactivedate);
-        
-        //if it's a weekend, skip
-        if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" /*|| $offdayz = 'true'){
-            $x = $x + 1;
-            mylog('weekend or offday removed');
-        } else {
-            mylog('entered reinsert phase');
-            $letter = $cyc_array[$cyc];
-            mylog('should be starting with ' . $letter);
-            $cyc = ($cyc==5) ? 0 : $cyc + 1;
-            mylog("letter is $letter, cyc is $cyc");
-            $dayquery = "UPDATE days SET cycleday = '$letter', daymodified = '$today' WHERE 'daate' = '$newlyinactivedate';";
-            mylog($dayquery);
-            $result = mysqli_query($db_server, $dayquery);       
-            if ($result->connect_errno) {
-                echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-            }
-            mylog($letter);
-            echo "  ";
-            echo $letter;
-            echo "  ";
-            echo $newlyinactivedate;
-            echo "</br>";
-            $x = $x + 1;
-        }
-    }
-    echo $b;
-    echo "thank you, $date has been removed from the schedule";
-}
-*/
 
 insertdays($newdayoff);
 
