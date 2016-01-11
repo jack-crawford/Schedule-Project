@@ -55253,3 +55253,57 @@
 2016-01-08 16:22:43: fetched today's date
 2016-01-08 16:25:08: SELECT cycleday FROM days WHERE daate = '2016-01-08'
 2016-01-08 16:25:08: fetched today's date
+2016-01-11 10:40:31: SELECT cycleday FROM days WHERE daate = '2016-01-11'
+2016-01-11 10:40:31: fetched today's date
+2016-01-11 11:34:20: SELECT cycleday FROM days WHERE daate = '2016-01-11'
+2016-01-11 11:34:20: fetched today's date
+2016-01-11 11:37:15: post begins
+2016-01-11 11:37:15: the value insertdays should be getting is 
+2016-01-11 11:37:26: post begins
+2016-01-11 11:37:26: the value insertdays should be getting is 2016-01-16
+2016-01-11 12:01:43: SELECT cycleday FROM days WHERE daate = '2016-01-11'
+2016-01-11 12:01:43: fetched today's date
+2016-01-11 12:01:46: post begins
+2016-01-11 12:01:46: the value insertdays should be getting is 2016-01-16
+2016-01-11 12:05:16: SELECT cycleday FROM days WHERE daate = '2016-01-11'
+2016-01-11 12:05:16: fetched today's date
+2016-01-11 12:05:18: post begins
+2016-01-11 12:05:18: the value insertdays should be getting is 2016-01-16
+2016-01-11 12:05:18: started to insert days
+2016-01-11 12:05:18: SELECT cycleday FROM days WHERE daate = '2016-01-16';
+2016-01-11 12:05:18: row is 
+2016-01-11 12:05:18: this is the cycle day of the posted date: 
+2016-01-11 12:09:04: post begins
+2016-01-11 12:09:04: the value insertdays should be getting is 2016-01-18
+2016-01-11 12:09:04: started to insert days
+2016-01-11 12:09:04: SELECT cycleday FROM days WHERE daate = '2016-01-18';
+2016-01-11 12:09:04: row is Array
+(
+    [cycleday] => F
+)
+
+2016-01-11 12:09:04: this is the cycle day of the posted date: F
+2016-01-11 12:11:43: post begins
+2016-01-11 12:11:43: the value insertdays should be getting is 2016-01-18
+2016-01-11 12:11:43: UPDATE days SET active = 'n', daymodified = '2016-01-11' WHERE daate = '';
+2016-01-11 12:11:43: made day inactive
+2016-01-11 12:11:43: started to insert days
+2016-01-11 12:11:43: SELECT cycleday FROM days WHERE daate = '2016-01-18';
+2016-01-11 12:11:43: row is Array
+(
+    [cycleday] => F
+)
+
+2016-01-11 12:11:43: this is the cycle day of the posted date: F
+2016-01-11 12:13:04: post begins
+2016-01-11 12:13:04: the value insertdays should be getting is 2016-01-18
+2016-01-11 12:13:04: started to insert days
+2016-01-11 12:13:04: SELECT cycleday FROM days WHERE daate = '2016-01-18';
+2016-01-11 12:13:04: row is Array
+(
+    [cycleday] => F
+)
+
+2016-01-11 12:13:04: this is the cycle day of the posted date: F
+2016-01-11 12:13:04: UPDATE days SET active = 'n', daymodified = '2016-01-11' WHERE daate = '2016-01-18';
+2016-01-11 12:13:04: made day inactive

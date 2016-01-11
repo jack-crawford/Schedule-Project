@@ -2,7 +2,7 @@
 date_default_timezone_set('America/Chicago');
 require_once 'login.php';
 include 'cheatsheat.php';
-
+mylog('post begins');
 $today = date('Y-m-d');
 global $db_server;
 #$db_server = new mysqli("localhost", "root", "root", "schedule");
@@ -75,6 +75,7 @@ function insertdays($date){
     {
         mylog('query failed');
     }
+
     
     //update row of day about to be "removed" to be inactive
     $makedayinactive = "UPDATE days SET active = 'n', daymodified = '$today' WHERE daate = '$date';";
@@ -82,7 +83,11 @@ function insertdays($date){
     $makedayinactiveresult = mysqli_query($db_server, $makedayinactive);
     if ($makedayinactiveresult->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+    } else {
+        mylog("made day inactive");
     }
+}
+    /*
     //Pull offday list, necessary?
     $offdayssql = array();
 
@@ -102,13 +107,13 @@ function insertdays($date){
     $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
     $cyc = array_search($cycofnewlyinactivedate, $cyc_array);
     mylog("the letter day now used on the next day is: $cyc")
-    while ($x <= 364):
+    while ($x <= 364) {
         mylog('while started');
         $newlyinactivedate = date('Y-m-d', strtotime("+ $x day", strtotime($date)));
         mylog($newlyinactivedate);
         
         //if it's a weekend, skip
-        if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" /*|| $offdayz = 'true'*/){
+        if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" /*|| $offdayz = 'true'){
             $x = $x + 1;
             mylog('weekend or offday removed');
         } else {
@@ -117,7 +122,7 @@ function insertdays($date){
             mylog('should be starting with ' . $letter);
             $cyc = ($cyc==5) ? 0 : $cyc + 1;
             mylog("letter is $letter, cyc is $cyc");
-            $dayquery = "INSERT INTO days(cycleday, daate, active, daymodified) VALUES ('$letter','$newlyinactivedate', 'y', '$today');";
+            $dayquery = "UPDATE days SET cycleday = '$letter', daymodified = '$today' WHERE 'daate' = '$newlyinactivedate';";
             mylog($dayquery);
             $result = mysqli_query($db_server, $dayquery);       
             if ($result->connect_errno) {
@@ -131,11 +136,11 @@ function insertdays($date){
             echo "</br>";
             $x = $x + 1;
         }
-    endwhile; 
+    }
     echo $b;
     echo "thank you, $date has been removed from the schedule";
 }
-
+*/
 
 insertdays($newdayoff);
 
