@@ -47,19 +47,20 @@ function checkforinactiveday($dateinquestion){
 }
 
 function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate) {
-    $x = 0;
+    $x = 1;
     $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
     $cyc = array_search($cycofnewlyinactivedate, $cyc_array);
     mylog("the letter day now used on the next day is: $cyc");
-    while ($x <= 364):
+    while ($x <= 4):
         mylog('while started');
-        $newlyinactivedatep1 = date('Y-m-d', strtotime($date));
-        mylog($newlyinactivedatep1);
-        $newlyinactivedate = date('Y-m-d', strtotime("+ $x day", $newlyinactivedatep1));
-        mylog($newlyinactivedate);
-        
+        $newlyinactivedatep1 = date('Y-m-d', strtotime($newlyinactivedate));
+        mylog("$newlyinactivedatep1 p1");
+        $newlyinactivedatep2 = date('Y-m-d', strtotime("+ $x day", $newlyinactivedatep1));
+        mylog("$newlyinactivedatep2 p2");
+        $x = $x + 1;
+        /*
         //if it's a weekend, skip
-        if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" /*|| $offdayz = 'true'*/){
+        if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" /*|| $offdayz = 'true'){
             $x = $x + 1;
             mylog('weekend or offday removed');
         } else {
@@ -78,11 +79,13 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate) {
             echo "  ";
             echo $letter;
             echo "  ";
-            echo $newlyinactivedate;
+            echo $newlyinactivedatep2;
             echo "</br>";
             $x = $x + 1;
         }
+        */
     endwhile;
+    
     echo $b;
     echo "thank you, $newlyinactivedate has been removed from the schedule";
 }
@@ -126,6 +129,7 @@ function insertdays($date){
     } else {
         mylog("made day inactive");
     }
+    mylog("$date, $cycledayofinactiveday");
     updaterestoftable($date, $cycledayofinactiveday);
 }
     
