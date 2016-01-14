@@ -30,19 +30,22 @@ function checkforinactiveday($dateinquestion){
     $inactivedaycheckresult = mysqli_query($db_server, $inactivedaycheck);
     mylog('ran the inactive day query');
     if ($inactivedaycheckresult->connect_errno) {
-    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    $row = mysqli_fetch_array($inactivedaycheckresult, MYSQLI_ASSOC);
-    mylog("checked inactive day for $dateinquestion");
+        echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+        $row = mysqli_fetch_array($inactivedaycheckresult, MYSQLI_ASSOC);
+        mylog("checked inactive day for $dateinquestion");
     }
-    mysqli_free_result($inactivedaycheckresult);
-    $activestatus = $row['active'];
+    
+    $resultrow = mysqli_fetch_array($inactivedaycheckresult, MYSQLI_ASSOC);
+    $activestatus = $resultrow["active"];
     mylog("active status for $dateinquestion is $activestatus");
+   
     if ($activestatus === 'y') {
-        return 'active';
+        return 'y';
     mylog("$dateinquestion is active");
     }
     else {
-        return 'inactive';
+        return 'n';
+        mylog("$dateinquestion is inactive");
     }
 }
 
@@ -94,7 +97,7 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate, $startin
 }
 
 
-/*function alterdays($date){
+function alterdays($date){
     $db_server = mysqli_connect("localhost", "root", "root", "schedule");
     if (mysqli_connect_errno()) {
      printf("Connect failed: %s\n", mysqli_connect_error());
@@ -102,9 +105,11 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate, $startin
     }
     $today = date('Y-m-d');
     mylog('started to insert days');
-    $activeday = checkforinactiveday($date)
+    $activeday = checkforinactiveday($date);
+    mylog("$date, according to line ONE HUNDRED AND NINE, is $activeday");
     //if day input is a weekend, ignore;
-    if (strcmp($activeday, "active")) {
+    
+    if (strcmp($activeday,"y")) {
     //select cycleday value of day that will be marked inactive
         $dayafterselectedday = date('Y-m-d', strtotime("+ 1 day", "$date"));
         $grabletterofnextday = "SELECT cycleday FROM days WHERE daate = '$dayafterselectedday';";
@@ -168,7 +173,6 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate, $startin
     
     //Pull offday list, necessary?
     $offdayssql = array();
-}*/
-//alterdays($newdayoff);
-checkforinactiveday($newdayoff);
+}
+alterdays($newdayoff);
 ?>
