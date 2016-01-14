@@ -3,7 +3,7 @@ date_default_timezone_set('America/Chicago');
 require_once 'login.php';
 include 'cheatsheat.php';
 mylog('post begins');
-$today = date('Y-m-d');
+
 global $db_server;
 #$db_server = new mysqli("localhost", "root", "root", "schedule");
 #if ($db_server->connect_errno) {
@@ -47,29 +47,32 @@ function checkforinactiveday($dateinquestion){
 }
 
 function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate) {
+    $db_server = mysqli_connect("localhost", "root", "root", "schedule");
+    if (mysqli_connect_errno()) {
+        printf("Connect failed: %s\n", mysqli_connect_error());
+        exit();
+    }
     $x = 1;
     $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
     $cyc = array_search($cycofnewlyinactivedate, $cyc_array);
-    mylog("the letter day now used on the next day is: $cyc");
-    while ($x <= 4):
+    mylog("the letter day now used on the next day is: $letter");
+    while ($x <= 200):
         mylog('while started');
-        $newlyinactivedatep1 = date('Y-m-d', strtotime($newlyinactivedate));
+        $newlyinactivedatep1 = strtotime($newlyinactivedate);
         mylog("$newlyinactivedatep1 p1");
-        $newlyinactivedatep2 = date('Y-m-d', strtotime("+ $x day", $newlyinactivedatep1));
+        $newlyinactivedatep2 = date('Y-m-d', strtotime("+ $x days", "$newlyinactivedatep1"));
         mylog("$newlyinactivedatep2 p2");
-        $x = $x + 1;
-        /*
+        
+        
         //if it's a weekend, skip
-        if (date('D' , strtotime("+ $x day")) === "Sun" || date('D' , strtotime("+ $x day")) === "Sat" /*|| $offdayz = 'true'){
-            $x = $x + 1;
-            mylog('weekend or offday removed');
+        if (date('D' , strtotime("+ $x days", "$newlyinactivedatep1")) === "Sun" || date('D' , strtotime("+ $x days", "$newlyinactivedatep1")) === "Sat" /*|| $offdayz = 'true'*/){
+            mylog("$newlyinactivedatep2 is a weekend or offday removed");
         } else {
-            mylog('entered reinsert phase');
             $letter = $cyc_array[$cyc];
             mylog('should be starting with ' . $letter);
             $cyc = ($cyc==5) ? 0 : $cyc + 1;
-            mylog("letter is $letter, cyc is $cyc");
-            $dayquery = "UPDATE days SET cycleday = '$letter', daymodified = '$today' WHERE 'daate' = '$newlyinactivedate';";
+            mylog("letter is $letter, date is: $newlyinactivedatep2");
+            $dayquery = "UPDATE days SET cycleday = '$letter', daymodified = now() WHERE daate = '$newlyinactivedatep2';";
             mylog($dayquery);
             $result = mysqli_query($db_server, $dayquery);       
             if ($result->connect_errno) {
@@ -81,9 +84,9 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate) {
             echo "  ";
             echo $newlyinactivedatep2;
             echo "</br>";
-            $x = $x + 1;
+            
         }
-        */
+    $x = $x + 1;    
     endwhile;
     
     echo $b;
