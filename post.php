@@ -38,25 +38,25 @@ function checkforinactiveday($dateinquestion){
     $activestatus = $row['active'];
     mylog("active status for $dateinquestion is $activestatus");
     if ($activestatus === 'y') {
-        return 'true';
+        return 'active';
     mylog("$dateinquestion is active");
     }
     else {
-        return 'false';
+        return 'inactive';
     }
 }
 
-function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate) {
+function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate, $startingvalue) {
     $db_server = mysqli_connect("localhost", "root", "root", "schedule");
     if (mysqli_connect_errno()) {
         printf("Connect failed: %s\n", mysqli_connect_error());
         exit();
     }
-    $x = 1;
+    $x = $startingvalue;
     $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
     $cyc = array_search($cycofnewlyinactivedate, $cyc_array);
     mylog("the letter day now used on the next day is: $letter");
-    while ($x <= 200):
+    while ($x <= 2):
         mylog('while started');
         $newlyinactivedatep1 = strtotime($newlyinactivedate);
         mylog("$newlyinactivedatep1 p1");
@@ -65,7 +65,7 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate) {
         
         
         //if it's a weekend, skip
-        if (date('D' , strtotime("+ $x days", "$newlyinactivedatep1")) === "Sun" || date('D' , strtotime("+ $x days", "$newlyinactivedatep1")) === "Sat" /*|| $offdayz = 'true'*/){
+        if (date('D' , strtotime("+ $x days", "$newlyinactivedatep1")) === "Sun" || date('D' , strtotime("+ $x days", "$newlyinactivedatep1")) === "Sat"){
             mylog("$newlyinactivedatep2 is a weekend or offday removed");
         } else {
             $letter = $cyc_array[$cyc];
@@ -94,7 +94,7 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate) {
 }
 
 
-function insertdays($date){
+/*function alterdays($date){
     $db_server = mysqli_connect("localhost", "root", "root", "schedule");
     if (mysqli_connect_errno()) {
      printf("Connect failed: %s\n", mysqli_connect_error());
@@ -102,43 +102,73 @@ function insertdays($date){
     }
     $today = date('Y-m-d');
     mylog('started to insert days');
-    //when a day is added it's posted to offdays
-    
-
+    $activeday = checkforinactiveday($date)
+    //if day input is a weekend, ignore;
+    if (strcmp($activeday, "active")) {
     //select cycleday value of day that will be marked inactive
-    $grabletterofinactiveday = "SELECT cycleday FROM days WHERE daate = '$date';";
-    mylog($grabletterofinactiveday);
-    
-    if ($grabletterofinactivedayresult = mysqli_query($db_server, $grabletterofinactiveday))
-    {
+        $dayafterselectedday = date('Y-m-d', strtotime("+ 1 day", "$date"));
+        $grabletterofnextday = "SELECT cycleday FROM days WHERE daate = '$dayafterselectedday';";
+        mylog($grabletterofnextday);
+        if ($grabletterofnextdayresult = mysqli_query($db_server, $grabletterofnextday)){
+        $row = mysqli_fetch_assoc($grabletterofnextdayresult);
+        mylog("row is " . print_r($row, true));
+        $cycledayofnextday = $row['cycleday'];
+        mylog("this is the cycle day of the posted date: $cycledayofnextday");
+        mysqli_free_result($grabletterofnextdayresult);
+        }
+        else
+        {
+        mylog('query failed');
+        }
+        
+        
+        //update row of day about to be "removed" to be inactive
+        $makedayactive = "UPDATE days SET active = 'y', daymodified = '$today' WHERE daate = '$date';";
+        mylog($makedayactive);
+        $makedayactiveresult = mysqli_query($db_server, $makedayactive);
+        if ($makedayactiveresult->connect_errno) {
+        echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+        } else {
+        mylog("made day inactive");
+        }
+        mylog("$date, $cycledayofactiveday");
+        updaterestoftable($date, $cycledayofnexrday, 0);
+    }
+    else {
+        //select cycleday value of day that will be marked inactive
+        $grabletterofinactiveday = "SELECT cycleday FROM days WHERE daate = '$date';";
+        mylog($grabletterofinactiveday);
+        
+        if ($grabletterofinactivedayresult = mysqli_query($db_server, $grabletterofinactiveday))
+        {
         $row = mysqli_fetch_assoc($grabletterofinactivedayresult);
         mylog("row is " . print_r($row, true));
         $cycledayofinactiveday = $row['cycleday'];
         mylog("this is the cycle day of the posted date: $cycledayofinactiveday");
         mysqli_free_result($grabletterofinactivedayresult);
-    }
-    else
-    {
+        }
+        else
+        {
         mylog('query failed');
-    }
-
-    
-    //update row of day about to be "removed" to be inactive
-    $makedayinactive = "UPDATE days SET active = 'n', daymodified = '$today' WHERE daate = '$date';";
-    mylog($makedayinactive);
-    $makedayinactiveresult = mysqli_query($db_server, $makedayinactive);
-    if ($makedayinactiveresult->connect_errno) {
-    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    } else {
+        }
+        
+        
+        //update row of day about to be "removed" to be inactive
+        $makedayinactive = "UPDATE days SET active = 'n', daymodified = '$today' WHERE daate = '$date';";
+        mylog($makedayinactive);
+        $makedayinactiveresult = mysqli_query($db_server, $makedayinactive);
+        if ($makedayinactiveresult->connect_errno) {
+        echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+        } else {
         mylog("made day inactive");
+        }
+        mylog("$date, $cycledayofinactiveday");
+        updaterestoftable($date, $cycledayofinactiveday, 1);
     }
-    mylog("$date, $cycledayofinactiveday");
-    updaterestoftable($date, $cycledayofinactiveday);
-}
     
     //Pull offday list, necessary?
     $offdayssql = array();
-
-insertdays($newdayoff);
-
+}*/
+//alterdays($newdayoff);
+checkforinactiveday($newdayoff);
 ?>
