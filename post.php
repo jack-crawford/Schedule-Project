@@ -66,10 +66,13 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate, $startin
         $newlyinactivedatep2 = date('Y-m-d', strtotime("+ $x days", "$newlyinactivedatep1"));
         mylog("$newlyinactivedatep2 p2");
         
-        
+        $activeday = checkforinactiveday($newlyinactivedatep2);
         //if it's a weekend, skip
         if (date('D' , strtotime("+ $x days", "$newlyinactivedatep1")) === "Sun" || date('D' , strtotime("+ $x days", "$newlyinactivedatep1")) === "Sat"){
-            mylog("$newlyinactivedatep2 is a weekend or offday removed");
+            mylog("$newlyinactivedatep2 is a Sat or Sun skipped");
+        }
+        elseif ($newlyinactivedatep2 <> $newlyinactivedatedatep1 && $activeday=="n") {
+            mylog("$newlyinactivedatep2 is an old offday that is skipped");
         } else {
             $letter = $cyc_array[$cyc];
             mylog('should be starting with ' . $letter);
@@ -91,7 +94,6 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate, $startin
         }
     $x = $x + 1;    
     endwhile;
-    
     echo $b;
     echo "thank you, $newlyinactivedate has been removed from the schedule";
 }
@@ -110,7 +112,8 @@ function alterdays($date){
     //if day input is a weekend, ignore;
     
     if (strcmp($activeday,"y")) {
-    //select cycleday value of day that will be marked inactive
+    //if day entered by admin is active
+        mylog("stayed in if");
         $dayafterselectedday = date('Y-m-d', strtotime("+ 1 day", "$date"));
         $grabletterofnextday = "SELECT cycleday FROM days WHERE daate = '$dayafterselectedday';";
         mylog($grabletterofnextday);
@@ -125,8 +128,6 @@ function alterdays($date){
         {
         mylog('query failed');
         }
-        
-        
         //update row of day about to be "removed" to be inactive
         $makedayactive = "UPDATE days SET active = 'y', daymodified = '$today' WHERE daate = '$date';";
         mylog($makedayactive);
@@ -137,9 +138,10 @@ function alterdays($date){
         mylog("made day inactive");
         }
         mylog("$date, $cycledayofactiveday");
-        updaterestoftable($date, $cycledayofnexrday, 0);
+        updaterestoftable($date, $cycledayofnextday, 0);
     }
     else {
+        mylog("went to else");
         //select cycleday value of day that will be marked inactive
         $grabletterofinactiveday = "SELECT cycleday FROM days WHERE daate = '$date';";
         mylog($grabletterofinactiveday);
@@ -171,8 +173,6 @@ function alterdays($date){
         updaterestoftable($date, $cycledayofinactiveday, 1);
     }
     
-    //Pull offday list, necessary?
-    $offdayssql = array();
 }
 alterdays($newdayoff);
 ?>
