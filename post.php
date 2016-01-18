@@ -143,7 +143,6 @@ function alterdays($date){
         //select cycleday value of day that will be marked inactive
         $grabletterofinactiveday = "SELECT cycleday FROM days WHERE daate = '$date';";
         mylog($grabletterofinactiveday);
-        
         if ($grabletterofinactivedayresult = mysqli_query($db_server, $grabletterofinactiveday)) {
             $row = mysqli_fetch_assoc($grabletterofinactivedayresult);
             mylog("row is " . print_r($row, true));
