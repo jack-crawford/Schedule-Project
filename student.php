@@ -35,7 +35,7 @@ function display() {
 function timecheck() {
     $db_server = mysqli_connect("localhost", "root", "root", "schedule");
     $today = date("Y-m-d");
-    $currenthour = date("h");
+    $currenthour = date("H");
     echo $currenttime;
     $db_server = mysqli_connect("localhost", "root", "root", "schedule");
     $cycquery = "SELECT cycleday FROM days WHERE daate = '$today';";
@@ -84,6 +84,69 @@ function timecheck() {
         $mod = $row['modd'];
         echo "<h1 style='text-align: center'> The next mod is: $mod </h1>";
         
+        
+        $nextmodtimequery = "SELECT timee FROM normalmodtimes WHERE modd = '$mod';";
+        $nextmodtimequeryresult = mysqli_query($db_server, $nextmodtimequery);
+        if ($nextmodtimequery->connect_errno) {
+            echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+        }
+        mylog("THE NEXT MODTIME QUERY SHOULD BE: $nextmodtimequery");
+        $row = mysqli_fetch_array($nextmodtimequeryresult, MYSQLI_ASSOC);
+        mysqli_free_result($nextmodtimequeryresult);
+        $timee = $row['timee'];
+        
+        
+        $substroftime = substr($timee, -8);
+        $timeforinterval = "$today $substroftime";
+        echo $timeforinterval;
+        $interval = date_diff($today, $timee);
+        echo $interval;
+        $timetillnextmod = $interval; //timee minus current time
+        
+        echo "
+            function startTimer(duration, display) {
+                var start = Date.now(),
+                diff,
+                minutes,
+                seconds;
+                function timer() {
+                    // get the number of seconds that have elapsed since 
+                    // startTimer() was called
+                    diff = duration - (((Date.now() - start) / 1000) | 0);
+                    
+                    // does the same job as parseInt truncates the float
+                    minutes = (diff / 60) | 0;
+                    seconds = (diff % 60) | 0;
+                    
+                    minutes = minutes < 10 ? '0' + minutes : minutes;
+                    seconds = seconds < 10 ? '0' + seconds : seconds;
+                    
+                    display.textContent = minutes + ':' + seconds; 
+                
+                    if (diff <= 0) {
+                    // add one second so that the count down starts at the full duration
+                    // example 05:00 not 04:59
+                    start = Date.now() + 1000;
+                    }
+                };
+                // we don't want to wait a full second before the timer starts
+                timer();
+                setInterval(timer, 1000);
+            }
+            
+            window.onload = function () {
+                var timeframe = $timetillnextmod,
+                display = document.querySelector('#time');
+                startTimer(fiveMinutes, display);
+            };
+        
+        
+        
+        
+        
+        ";
+        
+        
     }
     
 }
@@ -91,7 +154,7 @@ function timecheck() {
 $b = "</br>";
 function ddaytimemath() {
     $today = date("Y-m-d");
-    $currenthour = date('h');
+    $currenthour = date('H');
     $currentminute = date("i");
     mylog( "Current minute is $currentminute  ");
     $currentminuteroundeddown = $currentminute * .1;

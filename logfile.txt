@@ -860,3 +860,201 @@
 2016-01-19 10:23:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
 2016-01-19 10:23:14: fetched today's date
 2016-01-19 10:23:14: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:23:00' LIMIT 1;
+2016-01-19 10:43:14: post begins
+2016-01-19 10:43:14: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:43:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:43:14: fetched today's date
+2016-01-19 10:43:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:43:14: fetched today's date
+2016-01-19 10:43:14: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:43:00' LIMIT 1;
+2016-01-19 10:48:44: post begins
+2016-01-19 10:48:44: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:48:44: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:48:44: fetched today's date
+2016-01-19 10:48:44: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:48:44: fetched today's date
+2016-01-19 10:48:44: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:48:00' LIMIT 1;
+2016-01-19 11:02:57: post begins
+2016-01-19 11:02:57: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:02:57: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:02:57: fetched today's date
+2016-01-19 11:02:57: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:02:57: fetched today's date
+2016-01-19 11:02:57: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:02:00' LIMIT 1;
+2016-01-19 11:02:57: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:02:58: post begins
+2016-01-19 11:02:58: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:02:58: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:02:58: fetched today's date
+2016-01-19 11:02:58: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:02:58: fetched today's date
+2016-01-19 11:02:58: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:02:00' LIMIT 1;
+2016-01-19 11:02:58: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:03:36: post begins
+2016-01-19 11:03:36: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:03:36: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:03:36: fetched today's date
+2016-01-19 11:03:36: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:03:36: fetched today's date
+2016-01-19 11:03:36: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:03:00' LIMIT 1;
+2016-01-19 11:03:36: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:03:37: post begins
+2016-01-19 11:03:37: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:03:37: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:03:37: fetched today's date
+2016-01-19 11:03:37: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:03:37: fetched today's date
+2016-01-19 11:03:37: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:03:00' LIMIT 1;
+2016-01-19 11:03:37: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:03:37: post begins
+2016-01-19 11:03:37: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:03:37: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:03:37: fetched today's date
+2016-01-19 11:03:37: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:03:37: fetched today's date
+2016-01-19 11:03:37: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:03:00' LIMIT 1;
+2016-01-19 11:03:37: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:03:37: post begins
+2016-01-19 11:03:37: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:03:37: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:03:37: fetched today's date
+2016-01-19 11:03:37: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:03:37: fetched today's date
+2016-01-19 11:03:37: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:03:00' LIMIT 1;
+2016-01-19 11:03:37: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:03:38: post begins
+2016-01-19 11:03:38: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:03:38: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:03:38: fetched today's date
+2016-01-19 11:03:38: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:03:38: fetched today's date
+2016-01-19 11:03:38: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:03:00' LIMIT 1;
+2016-01-19 11:03:38: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:04:13: post begins
+2016-01-19 11:04:13: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:04:13: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:04:13: fetched today's date
+2016-01-19 11:04:13: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:04:13: fetched today's date
+2016-01-19 11:04:13: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:04:00' LIMIT 1;
+2016-01-19 11:04:13: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:04:14: post begins
+2016-01-19 11:04:14: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:04:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:04:14: fetched today's date
+2016-01-19 11:04:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:04:14: fetched today's date
+2016-01-19 11:04:14: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:04:00' LIMIT 1;
+2016-01-19 11:04:14: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:04:15: post begins
+2016-01-19 11:04:15: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:04:15: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:04:15: fetched today's date
+2016-01-19 11:04:15: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:04:15: fetched today's date
+2016-01-19 11:04:15: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:04:00' LIMIT 1;
+2016-01-19 11:04:15: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:07:14: post begins
+2016-01-19 11:07:14: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:07:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:07:14: fetched today's date
+2016-01-19 11:07:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:07:14: fetched today's date
+2016-01-19 11:07:14: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:07:00' LIMIT 1;
+2016-01-19 11:07:14: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:22:41: post begins
+2016-01-19 11:22:41: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:22:41: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:22:41: fetched today's date
+2016-01-19 11:22:41: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:22:41: fetched today's date
+2016-01-19 11:22:41: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:22:00' LIMIT 1;
+2016-01-19 11:22:41: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:22:42: post begins
+2016-01-19 11:22:42: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:22:42: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:22:42: fetched today's date
+2016-01-19 11:22:42: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:22:42: fetched today's date
+2016-01-19 11:22:42: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:22:00' LIMIT 1;
+2016-01-19 11:22:42: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:22:42: post begins
+2016-01-19 11:22:42: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:22:42: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:22:42: fetched today's date
+2016-01-19 11:22:42: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:22:42: fetched today's date
+2016-01-19 11:22:42: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:22:00' LIMIT 1;
+2016-01-19 11:22:42: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:22:42: post begins
+2016-01-19 11:22:42: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:22:42: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:22:42: fetched today's date
+2016-01-19 11:22:42: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:22:42: fetched today's date
+2016-01-19 11:22:42: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:22:00' LIMIT 1;
+2016-01-19 11:22:42: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '9';
+2016-01-19 11:54:29: post begins
+2016-01-19 11:54:29: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:54:29: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:54:29: fetched today's date
+2016-01-19 11:54:29: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:54:29: fetched today's date
+2016-01-19 11:54:29: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:54:00' LIMIT 1;
+2016-01-19 11:54:29: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '11';
+2016-01-19 11:54:30: post begins
+2016-01-19 11:54:30: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:54:30: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:54:30: fetched today's date
+2016-01-19 11:54:30: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:54:30: fetched today's date
+2016-01-19 11:54:30: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:54:00' LIMIT 1;
+2016-01-19 11:54:30: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '11';
+2016-01-19 11:55:25: post begins
+2016-01-19 11:55:25: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:55:25: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:55:25: fetched today's date
+2016-01-19 11:55:25: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:55:25: fetched today's date
+2016-01-19 11:55:25: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:55:00' LIMIT 1;
+2016-01-19 11:55:25: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '11';
+2016-01-19 11:55:26: post begins
+2016-01-19 11:55:26: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:55:26: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:55:26: fetched today's date
+2016-01-19 11:55:26: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:55:26: fetched today's date
+2016-01-19 11:55:26: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:55:00' LIMIT 1;
+2016-01-19 11:55:26: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '11';
+2016-01-19 11:55:26: post begins
+2016-01-19 11:55:26: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:55:26: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:55:26: fetched today's date
+2016-01-19 11:55:26: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:55:26: fetched today's date
+2016-01-19 11:55:26: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:55:00' LIMIT 1;
+2016-01-19 11:55:26: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '11';
+2016-01-19 11:55:32: post begins
+2016-01-19 11:55:32: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:55:32: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:55:32: fetched today's date
+2016-01-19 11:55:32: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:55:32: fetched today's date
+2016-01-19 11:55:32: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:55:00' LIMIT 1;
+2016-01-19 11:55:32: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '11';
+2016-01-19 11:59:13: post begins
+2016-01-19 11:59:13: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 11:59:13: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:59:13: fetched today's date
+2016-01-19 11:59:13: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 11:59:13: fetched today's date
+2016-01-19 11:59:13: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 11:59:00' LIMIT 1;
+2016-01-19 11:59:13: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '11';
+2016-01-19 12:03:09: post begins
+2016-01-19 12:03:09: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 12:03:09: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 12:03:09: fetched today's date
+2016-01-19 12:03:09: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 12:03:09: fetched today's date
+2016-01-19 12:03:09: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 12:03:00' LIMIT 1;
+2016-01-19 12:03:09: THE NEXT MODTIME QUERY SHOULD BE: SELECT timee FROM normalmodtimes WHERE modd = '11';

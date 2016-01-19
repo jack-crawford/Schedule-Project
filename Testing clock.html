@@ -1,0 +1,48 @@
+
+<html>
+    <h2 style='text-align:center'> TODAY IS </h2>
+    <h1 style='text-align:center'> E DAY</h1>
+    <h1 style='text-align: center'> The next mod is: 9 </h1>
+    <script type='text/javascript'>
+                var nextmod = '11:25:00';
+                function getTimeRemaining(nextmod){
+                    var t = Date.parse(endtime) - Date.parse(new Date());
+                    var seconds = Math.floor( (t/1000) % 60 );
+                    var minutes = Math.floor( (t/1000/60) % 60 );
+                    return {
+                        'total': t,
+                        'minutes': minutes,
+                        'seconds': seconds
+                    };
+                }
+                function initializeClock(id, endtime){
+                        var clock = document.getElementById(id);
+                        var timeinterval = setInterval(function(){
+                            var t = getTimeRemaining(endtime);
+                            clock.innerHTML = 'days: ' +
+                            'minutes: ' + t.minutes + '<br>' +
+                            'seconds: ' + t.seconds;
+                            if(t.total<=0){
+                                clearInterval(timeinterval);
+                            }
+                        },1000);
+                    }
+                    var minutesSpan = clock.querySelector('.minutes');
+                    var secondsSpan = clock.querySelector('.seconds');
+                    function updateClock(){
+                        var t = getTimeRemaining(endtime);
+                        minutesSpan.innerHTML = t.minutes;
+                        secondsSpan.innerHTML = t.seconds;
+                    }
+                initializeClock('clockdiv', nextmod);
+                </script>
+                
+                    
+                <div id = 'clockdiv'>
+                    Minutes: <span class='minutes'></span><br>
+                    Seconds: <span class='seconds'></span>
+                    
+                </div>
+        
+        
+            </html>
