@@ -77,3 +77,517 @@
 2016-01-18 17:30:56: fetched today's date
 2016-01-18 17:30:56: SELECT cycleday FROM days WHERE daate = '';
 2016-01-18 17:30:56: fetched today's date
+2016-01-18 18:09:04: post begins
+2016-01-18 18:09:04: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:09:04: fetched today's date
+2016-01-18 18:09:04: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:09:04: fetched today's date
+2016-01-18 18:09:05: post begins
+2016-01-18 18:09:05: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:09:05: fetched today's date
+2016-01-18 18:09:05: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:09:05: fetched today's date
+2016-01-18 18:09:12: post begins
+2016-01-18 18:09:12: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:09:12: fetched today's date
+2016-01-18 18:09:12: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:09:12: fetched today's date
+2016-01-18 18:11:51: post begins
+2016-01-18 18:11:51: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:11:51: fetched today's date
+2016-01-18 18:11:51: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:11:51: fetched today's date
+2016-01-18 18:14:02: post begins
+2016-01-18 18:14:02: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:14:02: fetched today's date
+2016-01-18 18:14:02: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:14:02: fetched today's date
+2016-01-18 18:14:15: post begins
+2016-01-18 18:14:15: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:14:15: fetched today's date
+2016-01-18 18:14:15: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:14:15: fetched today's date
+2016-01-18 18:14:15: post begins
+2016-01-18 18:14:15: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:14:15: fetched today's date
+2016-01-18 18:14:15: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:14:15: fetched today's date
+2016-01-18 18:15:16: post begins
+2016-01-18 18:15:16: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:15:16: fetched today's date
+2016-01-18 18:15:16: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:15:16: fetched today's date
+2016-01-18 18:15:40: post begins
+2016-01-18 18:15:40: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:15:40: fetched today's date
+2016-01-18 18:15:40: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:15:40: fetched today's date
+2016-01-18 18:16:17: post begins
+2016-01-18 18:16:17: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:16:17: fetched today's date
+2016-01-18 18:16:17: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:16:17: fetched today's date
+2016-01-18 18:17:08: post begins
+2016-01-18 18:17:08: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:17:08: fetched today's date
+2016-01-18 18:17:08: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:17:08: fetched today's date
+2016-01-18 18:17:09: post begins
+2016-01-18 18:17:09: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:17:09: fetched today's date
+2016-01-18 18:17:09: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:17:09: fetched today's date
+2016-01-18 18:17:22: post begins
+2016-01-18 18:17:22: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:17:22: fetched today's date
+2016-01-18 18:17:22: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:17:22: fetched today's date
+2016-01-18 18:17:39: post begins
+2016-01-18 18:17:39: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:17:39: fetched today's date
+2016-01-18 18:17:39: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:17:39: fetched today's date
+2016-01-18 18:18:00: post begins
+2016-01-18 18:18:00: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:18:00: fetched today's date
+2016-01-18 18:18:00: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:18:00: fetched today's date
+2016-01-18 18:18:08: post begins
+2016-01-18 18:18:08: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:18:08: fetched today's date
+2016-01-18 18:18:08: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:18:08: fetched today's date
+2016-01-18 18:18:27: post begins
+2016-01-18 18:18:27: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:18:27: fetched today's date
+2016-01-18 18:18:27: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:18:27: fetched today's date
+2016-01-18 18:18:50: post begins
+2016-01-18 18:18:50: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:18:50: fetched today's date
+2016-01-18 18:18:50: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:18:50: fetched today's date
+2016-01-18 18:20:16: post begins
+2016-01-18 18:20:16: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:20:16: fetched today's date
+2016-01-18 18:20:16: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:20:16: fetched today's date
+2016-01-18 18:20:38: post begins
+2016-01-18 18:20:38: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:20:38: fetched today's date
+2016-01-18 18:20:38: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:20:38: fetched today's date
+2016-01-18 18:20:58: post begins
+2016-01-18 18:20:58: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:20:58: fetched today's date
+2016-01-18 18:20:58: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:20:58: fetched today's date
+2016-01-18 18:25:55: post begins
+2016-01-18 18:25:55: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:25:55: fetched today's date
+2016-01-18 18:25:55: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:25:55: fetched today's date
+2016-01-18 18:25:55: Current minute is 25  
+2016-01-18 18:25:55: current minute times .1 is 2.5  
+2016-01-18 18:25:55: current minute times .1 and rounded is 3  
+2016-01-18 18:25:55: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:26:19: post begins
+2016-01-18 18:26:19: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:26:19: fetched today's date
+2016-01-18 18:26:19: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:26:19: fetched today's date
+2016-01-18 18:26:19: Current minute is 26  
+2016-01-18 18:26:19: current minute times .1 is 2.6  
+2016-01-18 18:26:19: current minute times .1 and rounded is 3  
+2016-01-18 18:26:19: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:28:08: post begins
+2016-01-18 18:28:08: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:28:08: fetched today's date
+2016-01-18 18:28:08: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:28:08: fetched today's date
+2016-01-18 18:28:08: Current minute is 28  
+2016-01-18 18:28:08: current minute times .1 is 2.8  
+2016-01-18 18:28:08: current minute times .1 and rounded is 3  
+2016-01-18 18:28:08: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:28:59: post begins
+2016-01-18 18:28:59: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:28:59: fetched today's date
+2016-01-18 18:28:59: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:28:59: fetched today's date
+2016-01-18 18:28:59: Current minute is 28  
+2016-01-18 18:28:59: current minute times .1 is 2.8  
+2016-01-18 18:28:59: current minute times .1 and rounded is 3  
+2016-01-18 18:28:59: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:32:11: post begins
+2016-01-18 18:32:11: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:32:11: fetched today's date
+2016-01-18 18:32:11: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:32:11: fetched today's date
+2016-01-18 18:32:11: Current minute is 32  
+2016-01-18 18:32:11: current minute times .1 is 3.2  
+2016-01-18 18:32:11: current minute times .1 and rounded is 3  
+2016-01-18 18:32:11: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:32:11: rounding resulted in 30
+2016-01-18 18:32:23: post begins
+2016-01-18 18:32:23: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:32:23: fetched today's date
+2016-01-18 18:32:23: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:32:23: fetched today's date
+2016-01-18 18:32:23: Current minute is 32  
+2016-01-18 18:32:23: current minute times .1 is 3.2  
+2016-01-18 18:32:23: current minute times .1 and rounded is 3  
+2016-01-18 18:32:23: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:32:23: rounding resulted in 30
+2016-01-18 18:32:24: post begins
+2016-01-18 18:32:24: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:32:24: fetched today's date
+2016-01-18 18:32:24: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:32:24: fetched today's date
+2016-01-18 18:32:24: Current minute is 32  
+2016-01-18 18:32:24: current minute times .1 is 3.2  
+2016-01-18 18:32:24: current minute times .1 and rounded is 3  
+2016-01-18 18:32:24: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:32:24: rounding resulted in 30
+2016-01-18 18:34:05: post begins
+2016-01-18 18:34:05: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:34:05: fetched today's date
+2016-01-18 18:34:05: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:34:05: fetched today's date
+2016-01-18 18:34:05: Current minute is 34  
+2016-01-18 18:34:05: current minute times .1 is 3.4  
+2016-01-18 18:34:05: current minute times .1 and rounded is 3  
+2016-01-18 18:34:05: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:34:05: rounding resulted in 30
+2016-01-18 18:34:06: post begins
+2016-01-18 18:34:06: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:34:06: fetched today's date
+2016-01-18 18:34:06: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:34:06: fetched today's date
+2016-01-18 18:34:06: Current minute is 34  
+2016-01-18 18:34:06: current minute times .1 is 3.4  
+2016-01-18 18:34:06: current minute times .1 and rounded is 3  
+2016-01-18 18:34:06: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:34:06: rounding resulted in 30
+2016-01-18 18:34:59: post begins
+2016-01-18 18:34:59: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:34:59: fetched today's date
+2016-01-18 18:34:59: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:34:59: fetched today's date
+2016-01-18 18:34:59: Current minute is 34  
+2016-01-18 18:34:59: current minute times .1 is 3.4  
+2016-01-18 18:34:59: current minute times .1 and rounded is 3  
+2016-01-18 18:34:59: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:34:59: rounding resulted in 30
+2016-01-18 18:34:59: Current minute is 34  
+2016-01-18 18:34:59: current minute times .1 is 3.4  
+2016-01-18 18:34:59: current minute times .1 and rounded is 3  
+2016-01-18 18:34:59: current minute times .1 and rounded times 10 is 30 
+2016-01-18 18:34:59: rounding resulted in 30
+2016-01-18 18:35:22: post begins
+2016-01-18 18:35:22: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:35:22: fetched today's date
+2016-01-18 18:35:22: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:35:22: fetched today's date
+2016-01-18 18:35:22: Current minute is 35  
+2016-01-18 18:35:22: current minute times .1 is 3.5  
+2016-01-18 18:35:22: current minute times .1 and rounded is 4  
+2016-01-18 18:35:22: current minute times .1 and rounded times 10 is 40 
+2016-01-18 18:35:47: post begins
+2016-01-18 18:35:47: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:35:47: fetched today's date
+2016-01-18 18:35:47: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:35:47: fetched today's date
+2016-01-18 18:35:47: Current minute is 35  
+2016-01-18 18:35:47: current minute times .1 is 3.5  
+2016-01-18 18:35:47: current minute times .1 and rounded is 4  
+2016-01-18 18:35:47: current minute times .1 and rounded times 10 is 40 
+2016-01-18 18:36:03: post begins
+2016-01-18 18:36:03: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:36:03: fetched today's date
+2016-01-18 18:36:03: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:36:03: fetched today's date
+2016-01-18 18:36:03: Current minute is 36  
+2016-01-18 18:36:03: current minute times .1 is 3.6  
+2016-01-18 18:36:03: current minute times .1 and rounded is 4  
+2016-01-18 18:36:03: current minute times .1 and rounded times 10 is 40 
+2016-01-18 18:36:03: it needed to be rounded some more... 50
+2016-01-18 18:36:25: post begins
+2016-01-18 18:36:25: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:36:25: fetched today's date
+2016-01-18 18:36:25: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:36:25: fetched today's date
+2016-01-18 18:36:25: Current minute is 36  
+2016-01-18 18:36:25: current minute times .1 is 3.6  
+2016-01-18 18:36:25: current minute times .1 and rounded is 4  
+2016-01-18 18:36:25: current minute times .1 and rounded times 10 is 40 
+2016-01-18 18:36:25: it needed to be rounded some more... 50
+2016-01-18 18:36:45: post begins
+2016-01-18 18:36:45: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:36:45: fetched today's date
+2016-01-18 18:36:45: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:36:45: fetched today's date
+2016-01-18 18:36:45: Current minute is 36  
+2016-01-18 18:36:45: current minute times .1 is 3.6  
+2016-01-18 18:36:45: current minute times .1 and rounded is 4  
+2016-01-18 18:36:45: current minute times .1 and rounded times 10 is 40 
+2016-01-18 18:36:45: it needed to be rounded some more... 50
+2016-01-18 18:39:58: post begins
+2016-01-18 18:39:58: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:39:58: fetched today's date
+2016-01-18 18:39:58: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:39:58: fetched today's date
+2016-01-18 18:39:58: Current minute is 39  
+2016-01-18 18:39:58: current minute times .1 is 3.9  
+2016-01-18 18:39:58: current minute times .1 and rounded is 4  
+2016-01-18 18:39:58: current minute times .1 and rounded times 10 is 40 
+2016-01-18 18:39:58: it needed to be rounded some more... 50
+2016-01-18 18:39:59: post begins
+2016-01-18 18:39:59: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:39:59: fetched today's date
+2016-01-18 18:39:59: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:39:59: fetched today's date
+2016-01-18 18:39:59: Current minute is 39  
+2016-01-18 18:39:59: current minute times .1 is 3.9  
+2016-01-18 18:39:59: current minute times .1 and rounded is 4  
+2016-01-18 18:39:59: current minute times .1 and rounded times 10 is 40 
+2016-01-18 18:39:59: it needed to be rounded some more... 50
+2016-01-18 18:40:36: post begins
+2016-01-18 18:40:36: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:40:36: fetched today's date
+2016-01-18 18:40:36: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:40:36: fetched today's date
+2016-01-18 18:40:36: Current minute is 40  
+2016-01-18 18:40:36: current minute times .1 is 4  
+2016-01-18 18:40:36: current minute times .1 and rounded is 4  
+2016-01-18 18:40:36: current minute times .1 and rounded times 10 is 40 
+2016-01-18 18:40:36: it needed to be rounded some more... 50
+2016-01-18 18:40:37: post begins
+2016-01-18 18:40:37: SELECT active FROM days WHERE daate = ''
+2016-01-18 18:40:37: fetched today's date
+2016-01-18 18:40:37: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 18:40:37: fetched today's date
+2016-01-18 18:40:37: Current minute is 40  
+2016-01-18 18:40:37: current minute times .1 is 4  
+2016-01-18 18:40:37: current minute times .1 and rounded is 4  
+2016-01-18 18:40:37: current minute times .1 and rounded times 10 is 40 
+2016-01-18 18:40:37: it needed to be rounded some more... 50
+2016-01-18 19:08:48: post begins
+2016-01-18 19:08:48: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:08:48: fetched today's date
+2016-01-18 19:08:48: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:08:48: fetched today's date
+2016-01-18 19:08:48: Current minute is 08  
+2016-01-18 19:08:48: current minute times .1 is 0.8  
+2016-01-18 19:08:48: current minute times .1 and rounded is 1  
+2016-01-18 19:08:48: current minute times .1 and rounded times 10 is 10 
+2016-01-18 19:08:48: rounding resulted in 10
+2016-01-18 19:19:32: post begins
+2016-01-18 19:19:32: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:19:32: fetched today's date
+2016-01-18 19:19:32: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:19:32: fetched today's date
+2016-01-18 19:19:32: Current minute is 19  
+2016-01-18 19:19:32: current minute times .1 is 1.9  
+2016-01-18 19:19:32: current minute times .1 and rounded is 2  
+2016-01-18 19:19:32: current minute times .1 and rounded times 10 is 20 
+2016-01-18 19:19:32: it needed to be rounded some more... 30
+2016-01-18 19:19:34: post begins
+2016-01-18 19:19:34: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:19:34: fetched today's date
+2016-01-18 19:19:34: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:19:34: fetched today's date
+2016-01-18 19:19:34: Current minute is 19  
+2016-01-18 19:19:34: current minute times .1 is 1.9  
+2016-01-18 19:19:34: current minute times .1 and rounded is 2  
+2016-01-18 19:19:34: current minute times .1 and rounded times 10 is 20 
+2016-01-18 19:19:34: it needed to be rounded some more... 30
+2016-01-18 19:20:48: post begins
+2016-01-18 19:20:48: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:20:48: fetched today's date
+2016-01-18 19:20:48: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:20:48: fetched today's date
+2016-01-18 19:20:48: Current minute is 20  
+2016-01-18 19:20:48: current minute times .1 is 2  
+2016-01-18 19:20:48: current minute times .1 and rounded is 2  
+2016-01-18 19:20:48: current minute times .1 and rounded times 10 is 20 
+2016-01-18 19:20:48: it needed to be rounded some more... 30
+2016-01-18 19:20:54: post begins
+2016-01-18 19:20:54: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:20:54: fetched today's date
+2016-01-18 19:20:54: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:20:54: fetched today's date
+2016-01-18 19:20:54: Current minute is 20  
+2016-01-18 19:20:54: current minute times .1 is 2  
+2016-01-18 19:20:54: current minute times .1 and rounded is 2  
+2016-01-18 19:20:54: current minute times .1 and rounded times 10 is 20 
+2016-01-18 19:20:54: it needed to be rounded some more... 30
+2016-01-18 19:29:26: post begins
+2016-01-18 19:29:26: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:29:26: fetched today's date
+2016-01-18 19:29:26: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:29:26: fetched today's date
+2016-01-18 19:29:26: Current minute is 29  
+2016-01-18 19:29:26: current minute times .1 is 2.9  
+2016-01-18 19:29:26: current minute times .1 and rounded is 3  
+2016-01-18 19:29:26: current minute times .1 and rounded times 10 is 30 
+2016-01-18 19:29:26: rounding resulted in 30
+2016-01-18 19:29:28: post begins
+2016-01-18 19:29:28: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:29:28: fetched today's date
+2016-01-18 19:29:28: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:29:28: fetched today's date
+2016-01-18 19:29:28: Current minute is 29  
+2016-01-18 19:29:28: current minute times .1 is 2.9  
+2016-01-18 19:29:28: current minute times .1 and rounded is 3  
+2016-01-18 19:29:28: current minute times .1 and rounded times 10 is 30 
+2016-01-18 19:29:28: rounding resulted in 30
+2016-01-18 19:31:58: post begins
+2016-01-18 19:31:58: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:31:58: fetched today's date
+2016-01-18 19:31:58: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:31:58: fetched today's date
+2016-01-18 19:31:58: Current minute is 31  
+2016-01-18 19:31:58: current minute times .1 is 3.1  
+2016-01-18 19:31:58: current minute times .1 and rounded is 3  
+2016-01-18 19:31:58: current minute times .1 and rounded times 10 is 30 
+2016-01-18 19:31:58: rounding resulted in 30
+2016-01-18 19:33:05: post begins
+2016-01-18 19:33:05: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:33:05: fetched today's date
+2016-01-18 19:33:05: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:33:05: fetched today's date
+2016-01-18 19:33:05: Current minute is 33  
+2016-01-18 19:33:05: current minute times .1 is 3.3  
+2016-01-18 19:33:05: current minute times .1 and rounded is 3  
+2016-01-18 19:33:05: current minute times .1 and rounded times 10 is 30 
+2016-01-18 19:33:05: rounding resulted in 30
+2016-01-18 19:33:16: post begins
+2016-01-18 19:33:16: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:33:16: fetched today's date
+2016-01-18 19:33:16: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:33:16: fetched today's date
+2016-01-18 19:33:16: Current minute is 33  
+2016-01-18 19:33:16: current minute times .1 is 3.3  
+2016-01-18 19:33:16: current minute times .1 and rounded is 3  
+2016-01-18 19:33:16: current minute times .1 and rounded times 10 is 30 
+2016-01-18 19:33:16: rounding resulted in 30
+2016-01-18 19:33:34: post begins
+2016-01-18 19:33:34: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:33:34: fetched today's date
+2016-01-18 19:33:34: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:33:34: fetched today's date
+2016-01-18 19:33:34: Current minute is 33  
+2016-01-18 19:33:34: current minute times .1 is 3.3  
+2016-01-18 19:33:34: current minute times .1 and rounded is 3  
+2016-01-18 19:33:34: current minute times .1 and rounded times 10 is 30 
+2016-01-18 19:33:34: rounding resulted in 30
+2016-01-18 19:33:44: post begins
+2016-01-18 19:33:44: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:33:44: fetched today's date
+2016-01-18 19:33:44: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:33:44: fetched today's date
+2016-01-18 19:33:44: Current minute is 33  
+2016-01-18 19:33:44: current minute times .1 is 3.3  
+2016-01-18 19:33:44: current minute times .1 and rounded is 3  
+2016-01-18 19:33:44: current minute times .1 and rounded times 10 is 30 
+2016-01-18 19:33:44: rounding resulted in 30
+2016-01-18 19:37:39: post begins
+2016-01-18 19:37:39: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:37:39: fetched today's date
+2016-01-18 19:37:39: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:37:39: fetched today's date
+2016-01-18 19:37:39: Current minute is 37  
+2016-01-18 19:37:39: current minute times .1 is 3.7  
+2016-01-18 19:37:39: current minute times .1 and rounded is 4  
+2016-01-18 19:37:39: current minute times .1 and rounded times 10 is 40 
+2016-01-18 19:37:39: it needed to be rounded some more... 50
+2016-01-18 19:47:10: post begins
+2016-01-18 19:47:10: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:47:10: fetched today's date
+2016-01-18 19:47:10: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:47:10: fetched today's date
+2016-01-18 19:47:22: post begins
+2016-01-18 19:47:22: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:47:22: fetched today's date
+2016-01-18 19:47:22: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:47:22: fetched today's date
+2016-01-18 19:47:27: post begins
+2016-01-18 19:47:27: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:47:27: fetched today's date
+2016-01-18 19:47:27: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:47:27: fetched today's date
+2016-01-18 19:47:28: post begins
+2016-01-18 19:47:28: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:47:28: fetched today's date
+2016-01-18 19:47:28: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:47:28: fetched today's date
+2016-01-18 19:48:52: post begins
+2016-01-18 19:48:52: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:48:52: fetched today's date
+2016-01-18 19:48:52: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:48:52: fetched today's date
+2016-01-18 19:48:53: post begins
+2016-01-18 19:48:53: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:48:53: fetched today's date
+2016-01-18 19:48:53: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:48:53: fetched today's date
+2016-01-18 19:48:59: post begins
+2016-01-18 19:48:59: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:48:59: fetched today's date
+2016-01-18 19:48:59: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:48:59: fetched today's date
+2016-01-18 19:49:01: post begins
+2016-01-18 19:49:01: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:49:01: fetched today's date
+2016-01-18 19:49:01: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:49:01: fetched today's date
+2016-01-18 19:49:01: post begins
+2016-01-18 19:49:01: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:49:01: fetched today's date
+2016-01-18 19:49:01: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:49:01: fetched today's date
+2016-01-18 19:49:01: post begins
+2016-01-18 19:49:01: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:49:01: fetched today's date
+2016-01-18 19:49:01: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:49:01: fetched today's date
+2016-01-18 19:49:01: post begins
+2016-01-18 19:49:01: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:49:01: fetched today's date
+2016-01-18 19:49:01: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:49:01: fetched today's date
+2016-01-18 19:49:01: post begins
+2016-01-18 19:49:01: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:49:01: fetched today's date
+2016-01-18 19:49:01: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:49:01: fetched today's date
+2016-01-18 19:50:43: post begins
+2016-01-18 19:50:43: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:50:43: fetched today's date
+2016-01-18 19:50:43: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:50:43: fetched today's date
+2016-01-18 19:50:46: post begins
+2016-01-18 19:50:46: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:50:46: fetched today's date
+2016-01-18 19:50:46: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:50:46: fetched today's date
+2016-01-18 19:50:47: post begins
+2016-01-18 19:50:47: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:50:47: fetched today's date
+2016-01-18 19:50:47: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:50:47: fetched today's date
+2016-01-18 19:51:38: post begins
+2016-01-18 19:51:38: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:51:38: fetched today's date
+2016-01-18 19:51:38: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:51:38: fetched today's date
+2016-01-18 19:53:47: post begins
+2016-01-18 19:53:47: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:53:47: fetched today's date
+2016-01-18 19:53:47: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:53:47: fetched today's date
+2016-01-18 19:57:37: post begins
+2016-01-18 19:57:37: SELECT active FROM days WHERE daate = ''
+2016-01-18 19:57:37: fetched today's date
+2016-01-18 19:57:37: SELECT cycleday FROM days WHERE daate = '';
+2016-01-18 19:57:37: fetched today's date
