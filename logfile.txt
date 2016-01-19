@@ -591,3 +591,272 @@
 2016-01-18 19:57:37: fetched today's date
 2016-01-18 19:57:37: SELECT cycleday FROM days WHERE daate = '';
 2016-01-18 19:57:37: fetched today's date
+2016-01-19 09:38:22: post begins
+2016-01-19 09:38:22: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:38:22: fetched today's date
+2016-01-19 09:38:22: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:38:22: fetched today's date
+2016-01-19 09:38:24: post begins
+2016-01-19 09:38:24: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:38:24: fetched today's date
+2016-01-19 09:38:24: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:38:24: fetched today's date
+2016-01-19 09:39:45: post begins
+2016-01-19 09:39:45: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:39:45: fetched today's date
+2016-01-19 09:39:45: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:39:45: fetched today's date
+2016-01-19 09:39:46: post begins
+2016-01-19 09:39:46: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:39:46: fetched today's date
+2016-01-19 09:39:46: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:39:46: fetched today's date
+2016-01-19 09:40:29: post begins
+2016-01-19 09:40:29: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:40:29: fetched today's date
+2016-01-19 09:40:29: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:40:29: fetched today's date
+2016-01-19 09:40:30: post begins
+2016-01-19 09:40:30: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:40:30: fetched today's date
+2016-01-19 09:40:30: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:40:30: fetched today's date
+2016-01-19 09:42:19: post begins
+2016-01-19 09:42:19: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:42:19: fetched today's date
+2016-01-19 09:42:19: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:42:19: fetched today's date
+2016-01-19 09:42:31: post begins
+2016-01-19 09:42:31: SELECT cycleday FROM days WHERE daate = '2016-01-19'
+2016-01-19 09:42:31: fetched today's cycle vlaue
+2016-01-19 09:42:31: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:42:31: fetched today's date
+2016-01-19 09:42:31: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:42:31: fetched today's date
+2016-01-19 09:43:02: post begins
+2016-01-19 09:43:02: SELECT cycleday FROM days WHERE daate = '2016-01-19'
+2016-01-19 09:43:02: fetched today's cycle value
+2016-01-19 09:43:02: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:43:02: fetched today's date
+2016-01-19 09:43:02: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:43:02: fetched today's date
+2016-01-19 09:44:04: post begins
+2016-01-19 09:44:04: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:44:04: fetched today's cycle value
+2016-01-19 09:44:04: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:44:04: fetched today's date
+2016-01-19 09:44:04: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:44:04: fetched today's date
+2016-01-19 09:44:43: post begins
+2016-01-19 09:44:43: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:44:43: fetched today's date
+2016-01-19 09:44:43: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:44:43: fetched today's date
+2016-01-19 09:44:43: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:44:43: fetched today's date
+2016-01-19 09:46:05: post begins
+2016-01-19 09:46:05: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:46:05: fetched today's date
+2016-01-19 09:46:05: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:46:05: fetched today's date
+2016-01-19 09:46:05: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:46:05: fetched today's date
+2016-01-19 09:46:12: post begins
+2016-01-19 09:46:12: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:46:12: fetched today's date
+2016-01-19 09:46:12: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:46:12: fetched today's date
+2016-01-19 09:46:12: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:46:12: fetched today's date
+2016-01-19 09:46:22: post begins
+2016-01-19 09:46:22: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:46:22: fetched today's date
+2016-01-19 09:46:22: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:46:22: fetched today's date
+2016-01-19 09:46:22: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:46:22: fetched today's date
+2016-01-19 09:46:41: post begins
+2016-01-19 09:46:41: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:46:41: fetched today's date
+2016-01-19 09:46:41: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:46:41: fetched today's date
+2016-01-19 09:46:41: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:46:41: fetched today's date
+2016-01-19 09:47:38: post begins
+2016-01-19 09:47:38: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:47:38: fetched today's date
+2016-01-19 09:47:38: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:47:38: fetched today's date
+2016-01-19 09:47:38: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:47:38: fetched today's date
+2016-01-19 09:48:10: post begins
+2016-01-19 09:48:10: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:48:10: fetched today's date
+2016-01-19 09:48:10: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:48:10: fetched today's date
+2016-01-19 09:48:10: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:48:10: fetched today's date
+2016-01-19 09:48:11: post begins
+2016-01-19 09:48:11: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:48:11: fetched today's date
+2016-01-19 09:48:11: SELECT active FROM days WHERE daate = ''
+2016-01-19 09:48:11: fetched today's date
+2016-01-19 09:48:11: SELECT cycleday FROM days WHERE daate = '';
+2016-01-19 09:48:11: fetched today's date
+2016-01-19 09:48:48: post begins
+2016-01-19 09:48:48: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:48:48: fetched today's date
+2016-01-19 09:48:48: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 09:48:48: fetched today's date
+2016-01-19 09:48:48: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:48:48: fetched today's date
+2016-01-19 09:48:48: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:48:48: fetched today's date
+2016-01-19 09:49:09: post begins
+2016-01-19 09:49:09: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 09:49:09: fetched today's date
+2016-01-19 09:49:09: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:49:09: fetched today's date
+2016-01-19 09:49:09: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:49:09: fetched today's date
+2016-01-19 09:50:22: post begins
+2016-01-19 09:50:22: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 09:50:22: fetched today's date
+2016-01-19 09:50:22: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:50:22: fetched today's date
+2016-01-19 09:50:22: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:50:22: fetched today's date
+2016-01-19 09:50:23: post begins
+2016-01-19 09:50:23: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 09:50:23: fetched today's date
+2016-01-19 09:50:23: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:50:23: fetched today's date
+2016-01-19 09:50:23: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:50:23: fetched today's date
+2016-01-19 09:51:25: post begins
+2016-01-19 09:51:25: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 09:51:25: fetched today's date
+2016-01-19 09:51:25: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:51:25: fetched today's date
+2016-01-19 09:51:25: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 09:51:25: fetched today's date
+2016-01-19 09:51:25: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 09:51:00';
+2016-01-19 10:02:13: post begins
+2016-01-19 10:02:13: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:02:13: fetched today's date
+2016-01-19 10:02:13: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:02:13: fetched today's date
+2016-01-19 10:02:13: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:02:13: fetched today's date
+2016-01-19 10:02:13: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:02:00';
+2016-01-19 10:02:24: post begins
+2016-01-19 10:02:24: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:02:24: fetched today's date
+2016-01-19 10:02:24: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:02:24: fetched today's date
+2016-01-19 10:02:24: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:02:24: fetched today's date
+2016-01-19 10:02:24: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:02:00';
+2016-01-19 10:02:25: post begins
+2016-01-19 10:02:25: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:02:25: fetched today's date
+2016-01-19 10:02:25: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:02:25: fetched today's date
+2016-01-19 10:02:25: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:02:25: fetched today's date
+2016-01-19 10:02:25: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:02:00';
+2016-01-19 10:02:34: post begins
+2016-01-19 10:02:34: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:02:34: fetched today's date
+2016-01-19 10:02:34: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:02:34: fetched today's date
+2016-01-19 10:02:34: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:02:34: fetched today's date
+2016-01-19 10:02:34: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:02:00';
+2016-01-19 10:02:51: post begins
+2016-01-19 10:02:51: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:02:51: fetched today's date
+2016-01-19 10:02:51: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:02:51: fetched today's date
+2016-01-19 10:02:51: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:02:51: fetched today's date
+2016-01-19 10:02:51: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:02:00';
+2016-01-19 10:05:01: post begins
+2016-01-19 10:05:01: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:05:01: fetched today's date
+2016-01-19 10:05:01: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:05:01: fetched today's date
+2016-01-19 10:05:01: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:05:01: fetched today's date
+2016-01-19 10:05:01: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:05:00';
+2016-01-19 10:05:27: post begins
+2016-01-19 10:05:27: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:05:27: fetched today's date
+2016-01-19 10:05:27: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:05:27: fetched today's date
+2016-01-19 10:05:27: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:05:27: fetched today's date
+2016-01-19 10:05:27: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:05:00' LIMIT 1;
+2016-01-19 10:05:28: post begins
+2016-01-19 10:05:28: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:05:28: fetched today's date
+2016-01-19 10:05:28: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:05:28: fetched today's date
+2016-01-19 10:05:28: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:05:28: fetched today's date
+2016-01-19 10:05:28: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:05:00' LIMIT 1;
+2016-01-19 10:08:14: post begins
+2016-01-19 10:08:14: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:08:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:08:14: fetched today's date
+2016-01-19 10:08:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:08:14: fetched today's date
+2016-01-19 10:08:14: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:08:00' LIMIT 1;
+2016-01-19 10:08:15: post begins
+2016-01-19 10:08:15: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:08:15: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:08:15: fetched today's date
+2016-01-19 10:08:15: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:08:15: fetched today's date
+2016-01-19 10:08:15: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:08:00' LIMIT 1;
+2016-01-19 10:19:01: post begins
+2016-01-19 10:19:01: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:19:01: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:19:01: fetched today's date
+2016-01-19 10:19:01: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:19:01: fetched today's date
+2016-01-19 10:19:01: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:19:00' LIMIT 1;
+2016-01-19 10:19:51: post begins
+2016-01-19 10:19:51: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:19:51: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:19:51: fetched today's date
+2016-01-19 10:19:51: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:19:51: fetched today's date
+2016-01-19 10:19:51: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:19:00' LIMIT 1;
+2016-01-19 10:19:51: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:19:51: fetched today's date
+2016-01-19 10:22:31: post begins
+2016-01-19 10:22:31: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:22:31: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:22:31: fetched today's date
+2016-01-19 10:22:31: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:22:31: fetched today's date
+2016-01-19 10:22:31: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:22:00' LIMIT 1;
+2016-01-19 10:22:31: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:22:31: fetched today's date
+2016-01-19 10:22:56: post begins
+2016-01-19 10:22:56: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:22:56: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:22:56: fetched today's date
+2016-01-19 10:22:56: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:22:56: fetched today's date
+2016-01-19 10:22:56: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:22:00' LIMIT 1;
+2016-01-19 10:22:56: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:22:56: fetched today's date
+2016-01-19 10:23:14: post begins
+2016-01-19 10:23:14: SELECT active FROM days WHERE daate = '2016-01-19'
+2016-01-19 10:23:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:23:14: fetched today's date
+2016-01-19 10:23:14: SELECT cycleday FROM days WHERE daate = '2016-01-19';
+2016-01-19 10:23:14: fetched today's date
+2016-01-19 10:23:14: THE NORMAL MOD QUERY SHOULD BE: SELECT modd FROM normalmodtimes WHERE timee > '0000-00-00 10:23:00' LIMIT 1;

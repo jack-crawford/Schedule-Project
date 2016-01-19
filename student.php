@@ -12,30 +12,32 @@ if (mysqli_connect_errno()) {
 global $db_server;
 $today = date("Y-m-d");
 global $today;
+
 function display() {
+    $db_server = mysqli_connect("localhost", "root", "root", "schedule");
     $today = date("Y-m-d");
-    $todaycycquery = "SELECT cycleday FROM days WHERE daate = '$today'";
-    mylog($todaycycquery);
-    $todaycycresult = mysqli_query($db_server, $todaycycquery);
-    if ($todaycycresult->connect_errno) {
-        echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+    $cycquery = "SELECT cycleday FROM days WHERE daate = '$today';";
+    mylog($cycquery);
+    $cycresult = mysqli_query($db_server, $cycquery);
+    if ($cycquery->connect_errno) {
+    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
     }
-    $row = mysqli_fetch_array($todaycycresult, MYSQLI_ASSOC);
+    $row = mysqli_fetch_array($cycresult, MYSQLI_ASSOC);
     mylog("fetched today's date");
-    mysqli_free_result($todaycycresult);
-    $cyclefortoday = $row['cycleday'];   
-    echo "<h2 style='text-align:center'> TODAY IS </h2><h1 style='text-align:center'> $cyclefortoday DAY</h1> ";
+    mysqli_free_result($cycresult);
+    $cyclevalue = $row['cycleday'];
+    echo "<h2 style='text-align:center'> TODAY IS </h2><h1 style='text-align:center'> $cyclevalue DAY</h1> ";
 }
 
 
 
 
-
-
 function timecheck() {
+    $db_server = mysqli_connect("localhost", "root", "root", "schedule");
+    $today = date("Y-m-d");
     $currenthour = date("h");
     echo $currenttime;
-    
+    $db_server = mysqli_connect("localhost", "root", "root", "schedule");
     $cycquery = "SELECT cycleday FROM days WHERE daate = '$today';";
     mylog($cycquery);
     $cycresult = mysqli_query($db_server, $cycquery);
@@ -56,35 +58,39 @@ function timecheck() {
         //check with dday mod times
         $nextmodtimefortoday = ddaytimemath();
         $ddaymodquery = "SELECT modd FROM ddaymodtimes WHERE timee = '0000-00-00 $nextmodtimefortoday';";
+        mylog($ddaymodquery);
         $ddaymodqueryresult = mysqli_query($db_server, $ddaymodquery);
         if ($ddayquery->connect_errno) {
             echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
         }
-        $row = mysql_fetch_array($ddaymodqueryresult, MYSQLI_ASSOC);
-        mysql_free_result($ddaymodqueryresult);
+        $row = mysqli_fetch_array($ddaymodqueryresult, MYSQLI_ASSOC);
+        mysqli_free_result($ddaymodqueryresult);
         $mod = $row['modd'];
-        echo $mod;
-        echo $ddaymodquery;
+        echo "<h1 style='text-align: center'> The next mod is: $mod </h1>";
+        mylog($ddaymodquery);
     } else {
+        $db_server = mysqli_connect("localhost", "root", "root", "schedule");
         //check with normal mod times
         $THEformattedtime = date('h:i');
         $THEFORMATTEDNOW = "0000-00-00 $THEformattedtime:00";
-        $normalmodquery = "SELECT modd FROM normalmodtimes WHERE timee > '$THEFORMATTEDNOW';";
+        $normalmodquery = "SELECT modd FROM normalmodtimes WHERE timee > '$THEFORMATTEDNOW' LIMIT 1;";
         $normalmodqueryresult = mysqli_query($db_server, $normalmodquery);
         if ($normalmodquery->connect_errno) {
             echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
         }
-        $row = mysql_fetch_array($normalmodqueryresult, MYSQLI_ASSOC);
-        mysql_free_result($normalmodqueryresult);
+        mylog("THE NORMAL MOD QUERY SHOULD BE: $normalmodquery");
+        $row = mysqli_fetch_array($normalmodqueryresult, MYSQLI_ASSOC);
+        mysqli_free_result($normalmodqueryresult);
         $mod = $row['modd'];
-        echo $mod;
-        echo $normalmodquery;
+        echo "<h1 style='text-align: center'> The next mod is: $mod </h1>";
+        
     }
     
 }
 
 $b = "</br>";
 function ddaytimemath() {
+    $today = date("Y-m-d");
     $currenthour = date('h');
     $currentminute = date("i");
     mylog( "Current minute is $currentminute  ");
@@ -115,6 +121,8 @@ function ddaytimemath() {
 
 
 function umbrellafunction(){
+    $db_server = mysqli_connect("localhost", "root", "root", "schedule");
+    $today = date("Y-m-d");
     $todayactivequery = "SELECT active FROM days WHERE daate = '$today'";
     mylog($todayactivequery);
     $todayactiveresult = mysqli_query($db_server, $todayactivequery);
@@ -122,10 +130,8 @@ function umbrellafunction(){
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
     }
     $row = mysqli_fetch_array($todayactiveresult, MYSQLI_ASSOC);
-    mylog("fetched today's date");
     mysqli_free_result($todayactiveresult);
     $active = $row['active'];
-    
     
     if ($active === 'y') {  
         display();
@@ -138,7 +144,6 @@ function umbrellafunction(){
 
 
 umbrellafunction();
-
 
 
 
