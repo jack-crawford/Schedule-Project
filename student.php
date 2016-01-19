@@ -99,8 +99,8 @@ function timecheck() {
         $substroftime = substr($timee, -8);
         $timeforinterval = "$today $substroftime";
         echo $timeforinterval;
-        $interval = date_diff($today, $timee);
-        echo $interval;
+        $interval = date_diff($timee, $today);
+        echo $interval->format("I:S");
         $timetillnextmod = $interval; //timee minus current time
         
         echo "
