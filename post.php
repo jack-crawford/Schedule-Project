@@ -78,7 +78,7 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate, $startin
     $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
     $cyc = array_search($cycofnewlyinactivedate, $cyc_array);
     //mylog("the letter day now used on the next day is: $letter");
-    while ($x <= 15):
+    while ($x <= 10):
     
     
         $dategivenbyadmin = strtotime($newlyinactivedate);
