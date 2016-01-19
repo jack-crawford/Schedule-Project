@@ -61,8 +61,20 @@ function timecheck() {
     
     $currentminute = date("i");
     
+    $specquery = "SELECT specialsched FROM days WHERE daate = '$today;";
+    $specresult = mysqli_query($db_server, $specquery);
+    if ($specquery->connect_errno) {
+    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+    }
+    $row = mysqli_fetch_array($specresult, MYSQLI_ASSOC);
+    mylog("fetched today's date");
+    mysqli_free_result($specresult);
+    $spec = $row['specialsched'];
     
-    if ($cyclevalue === 'D' || $dayoftheweek === 'Wed') {
+    
+    
+    
+    if ($cyclevalue === 'D' || $dayoftheweek === 'Wed' || $spec === 'y') {
         mylog("entered conditional of timecheck");
         //check with dday mod times
         $nextmodtimefortoday = ddaytimemath();
