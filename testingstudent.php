@@ -1,4 +1,11 @@
+<html>
 <?php
+echo "<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+      <link rel='stylesheet' type='text/css' href='css/jquery.countdown.css'> 
+      <script type='text/javascript' src='js/jquery.plugin.js'></script> 
+      <script type='text/javascript' src='js/jquery.countdown.js'></script>
+
+";
 date_default_timezone_set('America/Chicago');
 require_once 'login.php';
 include 'cheatsheat.php';
@@ -12,15 +19,6 @@ if (mysqli_connect_errno()) {
 global $db_server;
 $today = date("Y-m-d");
 global $today;
-
-echo "<link rel='stylesheet' type='text/css' href='style.css'>
-    <title> HH Cyclr </title>
-    <div id = 'header'> <a href='schoollogo.jpeg'> </a>hhcyclr  </div>  ";
-
-
-
-
-
 
 function display() {
     $db_server = mysqli_connect("localhost", "root", "root", "schedule");
@@ -75,31 +73,8 @@ function timecheck() {
         $row = mysqli_fetch_array($ddaymodqueryresult, MYSQLI_ASSOC);
         mysqli_free_result($ddaymodqueryresult);
         $mod = $row['modd'];
-        if (empty($mod)) {
-            echo "<h1 style='text-align: center'> Day is over! </h1>";
-        } else {
-        echo "<h1 style='text-align: center'> The next mod is mod $mod </h1>";
+        echo "<h1 style='text-align: center'> The next mod is: $mod </h1>";
         mylog($ddaymodquery);
-        
-        
-        $nextmodtimequery = "SELECT timee FROM ddaymodtimes WHERE modd = '$mod';";
-        $nextmodtimequeryresult = mysqli_query($db_server, $nextmodtimequery);
-        if ($nextmodtimequery->connect_errno) {
-            echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-        }
-        mylog("THE NEXT MODTIME QUERY SHOULD BE: $nextmodtimequery");
-        $row = mysqli_fetch_array($nextmodtimequeryresult, MYSQLI_ASSOC);
-        mysqli_free_result($nextmodtimequeryresult);
-        $timee = $row['timee'];
-        
-        $substroftime = substr($timee, -8);
-        $dateandsubstroftime = $today . $substroftime;
-        $astime = strtotime($dateandsubstroftime);
-        $finalsubstroftime = date("h:i", $astime);
-        $mornorafternoon = date('A');
-        echo "<h2 style = 'text-align: center'> Mod $mod begins at $finalsubstroftime  $mornorafternoon</h2>";        
-        }
-        
     } else {
         $db_server = mysqli_connect("localhost", "root", "root", "schedule");
         //check with normal mod times
@@ -114,10 +89,7 @@ function timecheck() {
         $row = mysqli_fetch_array($normalmodqueryresult, MYSQLI_ASSOC);
         mysqli_free_result($normalmodqueryresult);
         $mod = $row['modd'];
-        if (empty($mod)) {
-            echo "<h1 style='text-align: center'> Day is over! </h1>";
-        } else {
-        echo "<h1 style='text-align: center'> The next mod is mod $mod </h1>";
+        echo "<h1 style='text-align: center'> The next mod is: $mod </h1>";
         
         
         $nextmodtimequery = "SELECT timee FROM normalmodtimes WHERE modd = '$mod';";
@@ -130,18 +102,36 @@ function timecheck() {
         mysqli_free_result($nextmodtimequeryresult);
         $timee = $row['timee'];
         
+        
         $substroftime = substr($timee, -8);
+        echo "this is the next mod's time $substroftime";
+        echo "</br>";
+        echo " this is today: $today   ";
+        echo "</br>";
+        echo " this is the next mod today! $today $substroftime";
+        echo "</br>";
         $dateandsubstroftime = $today . $substroftime;
+        echo "</br>";
         $astime = strtotime($dateandsubstroftime);
-        $finalsubstroftime = date("h:i", $astime);
-        $mornorafternoon = date('A');
-        echo "<h2 style = 'text-align: center'> Mod $mod begins at $finalsubstroftime  $mornorafternoon</h2>";
-        /*
+        echo "</br>";
+        echo $astime;
+        echo "</br>";
+        echo date("h:i:s");
+        echo "</br>";
+        echo date("h:i:s", $astime);
+        
         
         echo $interval->format("I:S");
         $timetillnextmod = $interval; //timee minus current time
-        */
-        }
+        
+        echo "<script>
+                $(function () {
+                    var austDay = new Date();
+                    austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+                    $('#defaultCountdown').countdown({until: $astime});
+                    $('#year').text(austDay.getFullYear());
+                });
+            </script>";
     }
     
 }
@@ -203,32 +193,14 @@ function umbrellafunction(){
 
 umbrellafunction();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-echo "</html>";
-
-
+echo "<script type='text/javascript'>
+                $(function () {
+                    var austDay = new Date();
+                    austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+                    $('#defaultCountdown').countdown({until: austDay});
+                    $('#year').text(austDay.getFullYear());
+                });
+            </script>";
 
 
 
@@ -247,3 +219,19 @@ echo "</html>";
 
 
 ?>
+
+
+
+
+<script type='text/javascript'>
+            $(function () {
+                var austDay = new Date();
+                austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+                $('#defaultCountdown').countdown({until: austDay});
+                $('#year').text(austDay.getFullYear());
+                });
+            </script>
+            
+            
+            
+</html>

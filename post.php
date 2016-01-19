@@ -15,18 +15,37 @@ if (mysqli_connect_errno()) {
 $newdayoff = $_POST['dayoff'];
 mylog('the value insertdays should be getting is ' . $newdayoff);
 
+
+function isNOTactiveweekday($datesaftergiven, $formatteddateforcondish, $activeday) {
+            if (date('D' , strtotime("+ $x days", "$datesaftergiven")) === "Sun" || date('D' , strtotime("+ $x days", "$datesaftergiven")) === "Sat"){
+                mylog("IN isNOTactiveweekday, $datesaftergiven IS EITHER A SATURDAY OR A SUNDAY");
+                return true; 
+            }
+                if ($activeday === 'n') {
+                    mylog("isNOTactiveweekday went to checking if $activeday is a no!");
+                    if ($datesaftergiven != $formatteddateforcondish) {
+                        mylog("isNOTactiveweekday went to checking if $datesaftergiven is not $formatteddateforcondish");
+                        return true;
+                    }
+                }   
+            else {
+                return false;
+            }
+        }
+
+
 function checkforinactiveday($dateinquestion){
     $db_server = mysqli_connect("localhost", "root", "root", "schedule");
     if (mysqli_connect_errno()) {
         printf("Connect failed: %s\n", mysqli_connect_error());
         exit();
     }
-    mylog('started to check for inactive day');
+    //mylog('started to check for inactive day');
     //THIS QUERY RUNS!!!!!!
     $inactivedaycheck = "SELECT active FROM days WHERE daate = '$dateinquestion';";
     mylog($inactivedaycheck);
     $inactivedaycheckresult = mysqli_query($db_server, $inactivedaycheck);
-    mylog('ran the inactive day query');
+    //mylog('ran the inactive day query');
     if ($inactivedaycheckresult->connect_errno) {
         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
         $row = mysqli_fetch_array($inactivedaycheckresult, MYSQLI_ASSOC);
@@ -59,25 +78,28 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate, $startin
     $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
     $cyc = array_search($cycofnewlyinactivedate, $cyc_array);
     //mylog("the letter day now used on the next day is: $letter");
-    while ($x <= 300):
-        $newlyinactivedatep1 = strtotime($newlyinactivedate);
-        mylog("$newlyinactivedatep1 p1");
-        $newlyinactivedatep2 = date('Y-m-d', strtotime("+ $x days", "$newlyinactivedatep1"));
-        mylog("$newlyinactivedatep2 p2");
+    while ($x <= 15):
+    
+    
+        $dategivenbyadmin = strtotime($newlyinactivedate);
+        $formatteddateforcondish = date('Y-m-d', $dategivenbyadmin);
+        mylog("$dategivenbyadmin is the DATE GIVEN BY ADMIN");
+        $datesaftergiven = date('Y-m-d', strtotime("+ $x days", "$dategivenbyadmin"));
+        mylog("$datesaftergiven p2");
         
-        $activeday = checkforinactiveday($newlyinactivedatep2);
+        $activeday = checkforinactiveday($datesaftergiven);
+        
+        
         //if it's a weekend, skip
-        if (date('D' , strtotime("+ $x days", "$newlyinactivedatep1")) === "Sun" || date('D' , strtotime("+ $x days", "$newlyinactivedatep1")) === "Sat"){
-            //mylog("$newlyinactivedatep2 is a Sat or Sun skipped");
-        }
-        elseif ($newlyinactivedatep2 <> $newlyinactivedatedatep1 && $activeday=="n") {
-            //mylog("$newlyinactivedatep2 is an old offday that is skipped");
+        if (isNOTactiveweekday($datesaftergiven, $formatteddateforcondish, $activeday)){
+            mylog("$datesaftergiven IS NOT ACTIVE WEEKDAY");
+            $x = $x + 1;
         } else {
             $letter = $cyc_array[$cyc];
-            mylog("should be starting with $letter");
+            //mylog("should be starting with $letter");
             $cyc = ($cyc==5) ? 0 : $cyc + 1;
-            mylog("letter is $letter, date is: $newlyinactivedatep2");
-            $dayquery = "UPDATE days SET cycleday = '$letter', daymodified = '$today' WHERE daate = '$newlyinactivedatep2';";
+            //mylog("letter is $letter, date is: $newlyinactivedatep2");
+            $dayquery = "UPDATE days SET cycleday = '$letter', daymodified = '$today' WHERE daate = '$datesaftergiven';";
             mylog("update query looks like $dayquery");
             $dayqueryresult = mysqli_query($db_server, $dayquery);
             mylog('ran the inactive day query');
@@ -90,9 +112,9 @@ function updaterestoftable($newlyinactivedate, $cycofnewlyinactivedate, $startin
             echo "  ";
             echo $newlyinactivedatep2;
             echo "</br>";
-            
+            $x = $x + 1;
         }
-    $x = $x + 1;    
+        
     endwhile;
     echo $b;
     echo "thank you, $newlyinactivedate has been removed from the schedule";
