@@ -72,8 +72,6 @@ function timecheck() {
     $spec = $row['specialsched'];
     
     
-    
-    
     if ($cyclevalue === 'D' || $dayoftheweek === 'Wed' || $spec === 'y') {
         mylog("entered conditional of timecheck");
         //check with dday mod times

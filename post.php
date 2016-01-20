@@ -12,6 +12,14 @@ if (mysqli_connect_errno()) {
     exit();
 }
 
+echo "<link rel='stylesheet' type='text/css' href='style.css'>
+    <title> HH Admin Page </title>
+    <div id = 'header'> <a href='schoollogo.jpeg'> </a>hhcyclr  </div>  ";
+
+
+
+
+
 $newdayoff = $_POST['dayoff'];
 mylog('the value insertdays should be getting is ' . $newdayoff);
 
