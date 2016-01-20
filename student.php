@@ -87,27 +87,23 @@ function timecheck() {
         $mod = $row['modd'];
         if (empty($mod)) {
             echo "<h1 style='text-align: center'> Day is over! </h1>";
-        } else {
-        echo "<h1 style='text-align: center'> The next mod is mod $mod </h1>";
-        mylog($ddaymodquery);
-        
-        
-        $nextmodtimequery = "SELECT timee FROM ddaymodtimes WHERE modd = '$mod';";
-        $nextmodtimequeryresult = mysqli_query($db_server, $nextmodtimequery);
-        if ($nextmodtimequery->connect_errno) {
-            echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-        }
-        mylog("THE NEXT MODTIME QUERY SHOULD BE: $nextmodtimequery");
-        $row = mysqli_fetch_array($nextmodtimequeryresult, MYSQLI_ASSOC);
-        mysqli_free_result($nextmodtimequeryresult);
-        $timee = $row['timee'];
-        
-        $substroftime = substr($timee, -8);
-        $dateandsubstroftime = $today . $substroftime;
-        $astime = strtotime($dateandsubstroftime);
-        $finalsubstroftime = date("h:i", $astime);
-        $mornorafternoon = date('A');
-        echo "<h2 style = 'text-align: center'> Mod $mod begins at $finalsubstroftime  $mornorafternoon</h2>";        
+        } else {        
+            $nextmodtimequery = "SELECT timee FROM ddaymodtimes WHERE modd = '$mod';";
+            $nextmodtimequeryresult = mysqli_query($db_server, $nextmodtimequery);
+            if ($nextmodtimequery->connect_errno) {
+                echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+            }
+            mylog("THE NEXT MODTIME QUERY SHOULD BE: $nextmodtimequery");
+            $row = mysqli_fetch_array($nextmodtimequeryresult, MYSQLI_ASSOC);
+            mysqli_free_result($nextmodtimequeryresult);
+            $timee = $row['timee'];
+            
+            $substroftime = substr($timee, -8);
+            $dateandsubstroftime = $today . $substroftime;
+            $astime = strtotime($dateandsubstroftime);
+            $finalsubstroftime = date("h:i", $astime);
+            $mornorafternoon = date('A');
+            echo "<h2 style = 'text-align: center'> Mod $mod begins at $finalsubstroftime  $mornorafternoon</h2>";        
         }
         
     } else {

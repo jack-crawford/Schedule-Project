@@ -21,8 +21,9 @@ $x = 1;
 $cyc = 1;
 $today = date('Y-m-d');
 
-//theoretically add days to offdays array
-echo "Add days off: <form action='post.php' method='post'><input type='text' name='dayoff' /><input type='submit' /> </form> ";
+//turns days off
+echo "Add day off: <form action='post.php' method='post'><input type='text' name='dayoff' /><input type='submit' /> </form> ";
+echo "Change a date to a short class day: <form action='post.php' method='post'><input type='text' name='special' /><input type='submit' /> </form> ";
 
 
 function regenschedule(){
