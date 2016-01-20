@@ -249,19 +249,6 @@ function alterdays($date){
         }
     }
 }
-//alterdays($newdayoff);
-makedayspecial($daytobecomespecial);
-
-
-
-
-
-
-
-
-
-
-
 function updatecycleV2($startdate) {
     $today = date('Y-m-d');
     mylog("ENTERED UPDATE CYCLE!!!!!! with $startdate");
@@ -273,9 +260,7 @@ function updatecycleV2($startdate) {
     
     $x = $startingvalue;
     $j = 1;
-    $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
-    $cyc = array_search($cycofnewlyinactivedate, $cyc_array);
-    echo ("the letter day now used on the next day is: $letter");
+    
     
     
     if (checkforinactiveday($startdate) === 'y') {
@@ -285,110 +270,86 @@ function updatecycleV2($startdate) {
         if ($currentday->connect_errno) {
             echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
         }
-        mylog("THE NORMAL MOD QUERY SHOULD BE: $currentday");
+        //mylog("THE NORMAL MOD QUERY SHOULD BE: $currentday");
         $row = mysqli_fetch_array($currentdayresult, MYSQLI_ASSOC);
         mysqli_free_result($currentdayresult);
         $currentdaycycle = $row['cycleday'];
+        mylog("$startdate WAS A VALID DAY AND IT IS $currentdaycycle");
         
     }
     elseif (checkforinactiveday($startdate === 'n')) {
-        while($j <= 10):
+        while($j <= 3):
             $nextday = date('Y-m-d', strtotime("+ $j day", "$startdate"));
             //checking if the next day is a day that should also be skipped, or if it's the day we want to take the cycle value from
-            if (date('D' , strtotime("$nextday")) === "Sun" || date('D' , strtotime("$nextday")) === "Sat"){
-                mylog(" $startdate IS EITHER A SATURDAY OR A SUNDAY");
-                $j = $j + 1; 
+            if (checkforinactiveday($nextday) === 'y') {
+                $nextcycday = "SELECT cycleday FROM days WHERE daate = '$nextday';";
+                $nextcycdayresult = mysqli_query($db_server, $nextcycday);
+                if ($nextcycday->connect_errno) {
+                echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+                }
+                $row = mysqli_fetch_array($nextcycdayresult, MYSQLI_ASSOC);
+                mysqli_free_result($nextcycdayresult);
+                //if the next day is active, use its cyc
+                $currentdaycycle = $row['cycleday'];
+                mylog("$nextday IS A VALID DAY WITH $currentdaycycle");
             }
-            if (checkforinactiveday($nextday) === 'n') {
+            elseif (date('D' , strtotime("$nextday")) === "Sun" || date('D' , strtotime("$nextday")) === "Sat"){
+                mylog(" $nextday IS EITHER A SATURDAY OR A SUNDAY");
                 $j = $j + 1;
             }
-            
+            else {
+                $j = $j + 1;    
+            }
         endwhile;     
     }
-    
-    $nextday = "SELECT cycleday FROM days WHERE daate = '$nextdaytotry';";
-    $currentdayresult = mysqli_query($db_server, $currentday);
-    if ($currentday->connect_errno) {
-        echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    }
-    mylog("THE NORMAL MOD QUERY SHOULD BE: $currentday");
-    $row = mysqli_fetch_array($currentdayresult, MYSQLI_ASSOC);
-    mysqli_free_result($currentdayresult);
-    $currentdaycycle = $row['cycleday'];
-    
-    
-    
-    
-    
-    while ($x <= 200):
-    $dategivenbyadmin = strtotime($newlyinactivedate);
-    $formatteddateforcondish = date('Y-m-d', $dategivenbyadmin);
-    mylog("$dategivenbyadmin is the DATE GIVEN BY ADMIN");
-    $datesaftergiven = date('Y-m-d', strtotime("+ $x days", "$dategivenbyadmin"));
-    mylog("$datesaftergiven p2");
-    
-    $activeday = checkforinactiveday($datesaftergiven);
-    
-    
-    //if it's a weekend, skip
-    if (isNOTactiveweekday($datesaftergiven, $formatteddateforcondish, $activeday)){
-        mylog("$datesaftergiven IS NOT ACTIVE WEEKDAY");
-        $x = $x + 1;
-    } else {
+    //now we SHOULD have a correct cycle value to work with
+    echo ("$currentdaycycle </br>");
+    while ($x <= 3):
+        $cyc_array = array('A', 'B', 'C', 'D', 'E', 'F');
+        $cyc = array_search($currentdaycycle, $cyc_array);
         $letter = $cyc_array[$cyc];
-        //mylog("should be starting with $letter");
-        $cyc = ($cyc==5) ? 0 : $cyc + 1;
-        //mylog("letter is $letter, date is: $newlyinactivedatep2");
-        $dayquery = "UPDATE days SET cycleday = '$letter', daymodified = '$today' WHERE daate = '$datesaftergiven';";
-        mylog("update query looks like $dayquery");
-        $dayqueryresult = mysqli_query($db_server, $dayquery);
-        mylog('ran the inactive day query');
-        if ($dayqueryresult->connect_errno) {
-            echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+        echo ("the letter day now used on the next day is: $letter </br>");
+        $dategivenbyadmin = strtotime($startdate);
+        $formatteddateforcondish = date('Y-m-d', $dategivenbyadmin);
+        mylog("$dategivenbyadmin is the DATE GIVEN BY ADMIN");
+        $datesaftergiven = date('Y-m-d', strtotime("+ $x days", "$dategivenbyadmin"));
+        mylog("$datesaftergiven p2");
+        
+        $activeday = checkforinactiveday($datesaftergiven);
+        
+        
+        //if it's a weekend, skip
+        if (isNOTactiveweekday($datesaftergiven, $formatteddateforcondish, $activeday)){
+            mylog("$datesaftergiven IS NOT ACTIVE WEEKDAY");
+            $x = $x + 1;
+        } else {
+            $letter = $cyc_array[$cyc];
+            //mylog("should be starting with $letter");
+            $cyc = ($cyc==5) ? 0 : $cyc + 1;
+            //mylog("letter is $letter, date is: $newlyinactivedatep2");
+            $dayquery = "UPDATE days SET cycleday = '$letter', daymodified = '$today' WHERE daate = '$datesaftergiven';";
+            //mylog("update query looks like $dayquery");
+            $dayqueryresult = mysqli_query($db_server, $dayquery);
+            //mylog('ran the inactive day query');
+            if ($dayqueryresult->connect_errno) {
+                echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+            }
+            mylog("THE QUERY ON LINE 81 BROUGHT: $letter");
+            echo "  ";
+            echo $letter;
+            echo "  ";
+            echo $newlyinactivedatep2;
+            echo "</br>";
+            $x = $x + 1;
         }
-        mylog("THE QUERY ON LINE 81 BROUGHT: $letter");
-        echo "  ";
-        echo $letter;
-        echo "  ";
-        echo $newlyinactivedatep2;
-        echo "</br>";
-        $x = $x + 1;
-    }
-    
+    $x = $x + 1;
     endwhile;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//alterdays($newdayoff);
+makedayspecial($daytobecomespecial);
+updatecycleV2($newdayoff);
 
 
 
