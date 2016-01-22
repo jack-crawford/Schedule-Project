@@ -14,7 +14,7 @@ if (mysqli_connect_errno()) {
 
 echo "<link rel='stylesheet' type='text/css' href='style.css'>
     <title> HH Admin Page </title>
-    <div id = 'header'> <a href='schoollogo.jpeg'> </a>hhcyclr  </div>  ";
+    <div id = 'header'> <a href='schoollogo.jpeg'> </a>hhcycly  </div>  ";
 
 
 

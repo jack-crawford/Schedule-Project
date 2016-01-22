@@ -14,8 +14,8 @@ $today = date("Y-m-d");
 global $today;
 
 echo "<link rel='stylesheet' type='text/css' href='style.css'>
-    <title> HH Cyclr </title>
-    <div id = 'header'> <a href='schoollogo.jpeg'> </a>hhcyclr  </div>  ";
+    <title> HH Cycly </title>
+    <div id = 'header'> <a href='schoollogo.jpeg'> </a>hhcycly  </div>  ";
 
 
 
